@@ -321,10 +321,10 @@ Last completed unit:
 `Revision of Chapter 12.`
 
 Current work:
-`Chapter 12 is now in REVISED state.`
+`Chapter 12 is in REVISED state. Chapters 14-20 all reviewed and pass QA (no corrections needed).`
 
 Next action:
-`Approve Chapter 12.`
+`Approve Chapter 12. Continue drafting Chapter 21 (Active and Passive Voice, Unit 7 — Sentence Craft).`
 
 Open issues:
 `None`
