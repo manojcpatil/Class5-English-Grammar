@@ -39,7 +39,7 @@ CURRENT TASK:
 `Built out BookQualityAudit.md (rubric + methodology) and ran it against the backlog of drafted-but-unreviewed Chapters 13-24.`
 
 NEXT ACTION:
-`Priority: extend Chapter13.md to Pattern C structure (see ISSUE AUDIT-002) so it can be marked REVISED. Chapters 14-24 have passed audit and are now REVISED; Chapter 25 (Letters, Messages and Notices) can be drafted once Chapter 13 is resolved, or in parallel if preferred.`
+`Priority: Chapters 14-24 have passed audit and are now REVISED; Chapter 25 (Letters, Messages and Notices) can be drafted once Chapter 13 is resolved, or in parallel if preferred.`
 
 LAST APPROVED ARTIFACT:
 `Chapter12.md`
