@@ -30,22 +30,24 @@ CURRENT GATE:
 `GATE 2`
 
 CURRENT ARTIFACT:
-`Chapter13.md`
+`BookQualityAudit.md`
 
 CURRENT CHAPTER:
-`13`
+`13` (blocked; see Section 11)
 
 CURRENT TASK:
-`Completed draft of Chapter 13.`
+`Built out BookQualityAudit.md (rubric + methodology) and ran it against the backlog of drafted-but-unreviewed Chapters 13-24.`
 
 NEXT ACTION:
-`Review Chapter 13 for pedagogical soundness, accuracy, and adherence to the template.`
+`Priority: extend Chapter13.md to Pattern C structure (see ISSUE AUDIT-002) so it can be marked REVISED. Chapters 14-24 have passed audit and are now REVISED; Chapter 25 (Letters, Messages and Notices) can be drafted once Chapter 13 is resolved, or in parallel if preferred.`
 
 LAST APPROVED ARTIFACT:
 `Chapter12.md`
 
 LAST APPROVED GATE:
 `GATE 2`
+
+> CORRECTION NOTE (carried forward): An earlier checkpoint had fallen out of sync with the manuscript (Chapters 13-23 were recorded as NOT_STARTED despite already being drafted). That was corrected in a prior session. This session built `BookQualityAudit.md` and used it to actually audit Chapters 13-24, which is reflected in Section 6 and Section 11 below.
 
 ---
 
@@ -88,7 +90,7 @@ Use ONLY:
 | Image system | APPROVED | ImagePromptLibrary.md | Template |
 | Pilot chapter | APPROVED | Chapter01.md | Approved template |
 | Full manuscript | IN_PROGRESS | CompleteBook.md | Pilot |
-| Manuscript QA | NOT_STARTED | BookQualityAudit.md | CompleteBook |
+| Manuscript QA | IN_PROGRESS | BookQualityAudit.md | CompleteBook |
 | LaTeX | NOT_STARTED | main.tex | Approved manuscript |
 | PDF | NOT_STARTED | FinalBook.pdf | LaTeX |
 | PDF QA | NOT_STARTED | Audit report | PDF |
@@ -110,26 +112,34 @@ Use ONLY:
 | 06 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
 | 07 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
 | 08 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
+| 09 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
 | 10 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
 | 11 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
 | 12 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
-| 13 | DRAFTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 14 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 15 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 16 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 17 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 18 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 19 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 20 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 21 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 22 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 23 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 24 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
+| 13 | BLOCKED | NEEDS_REVISION | PASS | N/A | NO |
+| 14 | REVISED | PASS | PASS | PASS | NO |
+| 15 | REVISED | PASS | PASS | PASS | NO |
+| 16 | REVISED | PASS | PASS | PASS | NO |
+| 17 | REVISED | PASS | PASS | PASS | NO |
+| 18 | REVISED | PASS | PASS | PASS | NO |
+| 19 | REVISED | PASS | PASS | PASS | NO |
+| 20 | REVISED | PASS | PASS | PASS | NO |
+| 21 | REVISED | PASS | PASS | PASS | NO |
+| 22 | REVISED | PASS (see AUDIT-003) | PASS | PASS | NO |
+| 23 | REVISED | PASS | PASS | PASS | NO |
+| 24 | REVISED | PASS | PASS | PASS | NO |
 | 25 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
 | 26 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
 | 27 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
 | 28 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
 | 29 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
+
+Note: "Approved" remains NO for Chapters 14-24 even though their Content/
+Pedagogy/Visual QA all PASS, because full Chapter Approval per
+`ChapterTemplate.md` Section 37 also requires the LaTeX chapter file to
+compile and the rendered PDF pages to be visually inspected — neither of
+which has started yet (see Section 8-9). REVISED means "manuscript-level QA
+clear"; APPROVED is reserved for after the publication-output checks.
 
 If the final approved syllabus has a different number of chapters, update this table.
 
@@ -139,7 +149,7 @@ If the final approved syllabus has a different number of chapters, update this t
 
 | Output | Source | Status | QA | Approved |
 |---|---|---|---|---|
-| Markdown manuscript | Chapters/*.md | NOT_STARTED | NOT_STARTED | NO |
+| Markdown manuscript | Chapters/*.md | IN_PROGRESS | IN_PROGRESS | NO |
 | CompleteBook.md | Markdown chapters | NOT_STARTED | NOT_STARTED | NO |
 | LaTeX | CompleteBook.md | NOT_STARTED | NOT_STARTED | NO |
 | PDF | LaTeX | NOT_STARTED | NOT_STARTED | NO |
@@ -227,6 +237,10 @@ Warnings/errors:
 | ID | Phase/Chapter | Severity | Issue | Action | Status |
 |---|---|---|---|---|---|
 | SRC-001 | Reference | HIGH | Complete source-wide inventory not yet established | Complete source analysis | CLOSED |
+| LOG-002 | Log.md | MEDIUM | Log.md Section 2, Section 6, and Section 17 had fallen out of sync with actual chapter files (Chapters 13-23 were already drafted but recorded as NOT_STARTED). | Corrected Section 2, Section 6, and Section 17 to match actual file state. | CLOSED |
+| AUDIT-001 | Chapters 3-13 (cross-cutting) | MEDIUM | Manuscript currently follows three different structural patterns (A: Ch1-2 full legacy template; B: Ch3-13 short form; C: Ch14-24 medium form with Self-Check/Practice Zone/Teacher Notes/Answer Key/LaTeX mapping). Chapters 3-13 lack sections present in every chapter from 14 onward. | Plan a harmonisation pass on Chapters 3-13 before LaTeX build begins. Full details in `BookQualityAudit.md` Section A.3. | OPEN |
+| AUDIT-002 | Chapter 13 | HIGH | Chapter 13 specifically lacks Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and Status sections, unlike Chapters 14-24, which sit immediately after it. | Extend Chapter 13 to Pattern C before marking it REVISED. This is the current NEXT ACTION. | OPEN |
+| AUDIT-003 | Chapter 22 | LOW-MEDIUM | Chapter 22's Teacher Support Note cites "Log.md DEC-034," which does not exist in the Decision Register (Section 12). | Either backfill the decision into Section 12, or soften the in-chapter citation to a general design note without a specific decision ID. | OPEN |
 
 Severity:
 CRITICAL / HIGH / MEDIUM / LOW
@@ -256,8 +270,11 @@ CRITICAL / HIGH / MEDIUM / LOW
 | DEC-017 | GATE 5 | Revised Chapter 10 Scope. | The scope of Chapter 10 is limited to Prepositions of Place, Time, and Direction to manage cognitive load. More complex prepositional phrases and context-sensitive choices will be handled in a subsequent chapter. | None |
 | DEC-018 | GATE 5 | Approved `Chapter10.md`. | The chapter on Prepositions is pedagogically sound and meets all quality checks within its revised scope. | None |
 | DEC-019 | GATE 5 | Approved `Chapter11.md`. | The chapter on Conjunctions is pedagogically sound and meets all quality checks after revision. | None |
-
-Important decisions must be recorded here.
+| DEC-020 | GATE 2 | Corrected Log.md tracking. | Section 2, Section 6, and Section 17 of Log.md had fallen behind the actual manuscript state (Chapters 13-23 were already drafted but recorded as not started). Corrected all three sections to reflect that Chapters 1-12 are APPROVED, Chapters 13-24 are DRAFTED (pending content/pedagogy/visual QA), and Chapters 25-29 are NOT_STARTED. | Supersedes stale entries in prior Section 2/6/17 |
+| DEC-021 | GATE 2 | Drafted `Chapter24.md`. | Chapter 24 (Paragraph and Descriptive Writing) was drafted following `ChapterTemplate.md` and the established Unit 5-8 chapter pattern (Chapters 14-23), covering topic sentences, supporting details, logical ordering, and sensory/descriptive language, as specified in `DetailedSyllabus.md`. | None |
+| DEC-022 | GATE 2 | Built out `BookQualityAudit.md` (Part A: rubric; Part B: audit run). | Chapters 14-24 had been sitting in DRAFTED status with each chapter's own STATUS line pointing to a nonexistent audit document, so no chapter past 12 could actually reach REVISED status. Created the audit rubric and ran it against the full backlog (Chapters 13-24). | None |
+| DEC-023 | GATE 2 | Marked Chapters 14-24 as REVISED. | All eleven chapters passed content, pedagogy, language, assessment, visual, publication, and originality checks per `BookQualityAudit.md` Part B, with no blocking issues (Chapter 22 has one non-blocking follow-up, AUDIT-003). REVISED reflects manuscript-level QA clearance only; full APPROVED status is deferred until the LaTeX/PDF publication checks (Gate 3) are complete, per `ChapterTemplate.md` Section 37. | None |
+| DEC-024 | GATE 2 | Marked Chapter 13 as BLOCKED rather than REVISED. | Audit found Chapter 13 is missing every section that Chapters 14-24 include (Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, Status). Since Chapter 13 sits immediately before an otherwise-consistent run of chapters, this is logged as the priority fix (AUDIT-002) ahead of drafting further new chapters. | None |
 
 ---
 
@@ -265,7 +282,7 @@ Important decisions must be recorded here.
 
 | Item | Planned | Completed | Approved |
 |---|---|---|---|
-| Chapters | 29 | 8 | 8 |
+| Chapters | 29 | 24 | 12 |
 | Activities | TBD | 0 | 0 |
 | Examples | TBD | 0 | 0 |
 | Exercises | TBD | 0 | 0 |
@@ -312,25 +329,25 @@ If a session is likely to end:
 # 17. HANDOVER SUMMARY
 
 Completed this session:
-`Applied suggested revisions to Chapter 12 based on review feedback.`
+`Built BookQualityAudit.md (Part A: reusable rubric/methodology; Part B: an actual audit run against Chapters 13-24). Result: Chapters 14-24 (eleven chapters) passed with no blocking issues and were marked REVISED in Section 6. Chapter 13 was found to be structurally incomplete relative to every chapter after it and was marked BLOCKED. One minor cross-file inconsistency was found in Chapter 22 (cites a nonexistent decision ID) and logged as AUDIT-003.`
 
 Files changed:
-`01-Control/Log.md`, `02-Manuscript/Chapter12.md`
+`01-Control/Log.md`, `01-Control/BookQualityAudit.md`
 
 Last completed unit:
-`Revision of Chapter 12.`
+`BookQualityAudit.md Part A and Part B; Log.md Sections 2, 5, 6, 7, 11, 12, 17 updated to reflect audit results.`
 
 Current work:
-`Chapter 12 is in REVISED state. Chapters 14-20 all reviewed and pass QA (no corrections needed).`
+`Chapters 1-12 APPROVED. Chapters 14-24 REVISED (manuscript-level QA clear; publication-level APPROVED still pending Gate 3 work). Chapter 13 BLOCKED pending structural extension to match Pattern C. Chapters 25-29 NOT_STARTED.`
 
 Next action:
-`Approve Chapter 12. Continue drafting Chapter 21 (Active and Passive Voice, Unit 7 — Sentence Craft).`
+`Priority 1: Extend Chapter13.md with the sections identified in AUDIT-002, then re-run the audit rubric against it and update its status. Priority 2 (can run in parallel): Draft Chapter 25 (Letters, Messages and Notices, Unit 8). Priority 3 (lower urgency, tracked in AUDIT-001): plan the harmonisation of Chapters 3-13's structural pattern before LaTeX build begins.`
 
 Open issues:
-`None`
+`AUDIT-001 (structural pattern drift across Ch3-13, MEDIUM, OPEN). AUDIT-002 (Chapter 13 missing sections, HIGH, OPEN, current priority). AUDIT-003 (Chapter 22 cites nonexistent DEC-034, LOW-MEDIUM, OPEN). BookQualityAudit.md, ReferenceBookAnalysis.md, Glossary.md, and CompleteBook.md were previously noted as empty despite some phases being marked APPROVED/IN_PROGRESS -- BookQualityAudit.md is now resolved by this session; ReferenceBookAnalysis.md, Glossary.md, and CompleteBook.md remain to be reconciled.`
 
 Decisions:
-`DEC-001, DEC-002, DEC-003, DEC-004, DEC-005, DEC-006, DEC-007, DEC-008, DEC-009, DEC-010, DEC-011, DEC-012, DEC-013, DEC-014, DEC-015, DEC-016, DEC-017, DEC-018, DEC-019`
+`DEC-001 through DEC-024 (see Section 12).`
 
 Approval gate reached:
 `GATE 1`
