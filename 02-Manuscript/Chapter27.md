@@ -249,11 +249,11 @@ Leo's second diary entry:
 > "My friends and me is going to the market. We buys some fruit and there was lots of colourful stalls. Its a very busy place and everyone were shouting prices. I loves it there!"
 
 Questions:
-1. Find at least four separate errors, and sort each one into a checklist category.
+1. Find at least five separate errors, and sort each one into a checklist category.
 2. Correct the whole passage.
 3. For each correction, explain which chapter's rule it uses.
 
-*(Guidance: "My friends and me is" → agreement ("My friends and I are," Ch. 13); "We buys" → agreement ("We buy," Ch. 13); "there was" → word choice/homophone if referring to place is fine, but check meaning — here it's used correctly as "there was [lots of stalls]," so no error; "Its a very busy place" → word choice ("It's," Ch. 18); "everyone were shouting" → agreement ("everyone was," since "everyone" is singular, Ch. 13); "I loves it" → agreement ("I love," Ch. 13). Full corrected passage: "My friends and I are going to the market. We buy some fruit and there was lots of colourful stalls. It's a very busy place and everyone was shouting prices. I love it there!")*
+*(Guidance: "My friends and me is" → agreement ("My friends and I are," Ch. 13); "We buys" → agreement ("We buy," Ch. 13); "there was lots of colourful stalls" → agreement ("there were," since "lots of" agrees with the plural noun that follows it, "stalls" — the same rule that makes "Lots of apples are on the table" correct, Ch. 13); "Its a very busy place" → word choice ("It's," Ch. 18); "everyone were shouting" → agreement ("everyone was," since "everyone" is singular, Ch. 13); "I loves it" → agreement ("I love," Ch. 13). Full corrected passage: "My friends and I are going to the market. We buy some fruit and there were lots of colourful stalls. It's a very busy place and everyone was shouting prices. I love it there!")*
 
 ---
 
@@ -471,4 +471,4 @@ To be created at `04-LaTeX/chapters/chapter27.tex` during typesetting, following
 
 ## 34. STATUS
 
-`Chapter 27 is DRAFTED. Pending review against BookQualityAudit.md before REVISED status.`
+`Chapter 27 has been audited against BookQualityAudit.md. One content error was found and corrected in Section 15 (Grammar Detective): the answer key incorrectly treated "there was lots of colourful stalls" as already correct, when it should read "there were," since "lots of" agrees with the plural noun that follows it ("stalls"), consistent with the agreement rule taught in Chapter 13. Corrected and reviewed. REVISED.`
