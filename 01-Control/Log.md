@@ -30,16 +30,16 @@ CURRENT GATE:
 `GATE 2`
 
 CURRENT ARTIFACT:
-`BookQualityAudit.md`
+`Chapter27.md`
 
 CURRENT CHAPTER:
-`13` (blocked; see Section 11)
+`27` (drafted; Chapter 13 remains separately BLOCKED — see Section 11)
 
 CURRENT TASK:
-`Built out BookQualityAudit.md (rubric + methodology) and ran it against the backlog of drafted-but-unreviewed Chapters 13-24.`
+`Drafted Chapter26.md (Creative Composition) and Chapter27.md (Grammar Detective — the Unit 9 integrated review chapter), both following the Pattern C structure used by Chapters 14-25.`
 
 NEXT ACTION:
-`Priority: Chapters 14-24 have passed audit and are now REVISED; Chapter 25 (Letters, Messages and Notices) can be drafted once Chapter 13 is resolved, or in parallel if preferred.`
+`Priority 1: Run Chapters 25, 26, and 27 through the BookQualityAudit.md rubric (Part B) and record their verdicts. Priority 2: Resolve AUDIT-002 by extending Chapter 13 to Pattern C. Priority 3: Draft Chapter 28 (Language Workshop). Priority 4 (lower urgency, tracked in AUDIT-001): plan the harmonisation of Chapters 3-13's structural pattern before LaTeX build begins.`
 
 LAST APPROVED ARTIFACT:
 `Chapter12.md`
@@ -47,7 +47,7 @@ LAST APPROVED ARTIFACT:
 LAST APPROVED GATE:
 `GATE 2`
 
-> CORRECTION NOTE (carried forward): An earlier checkpoint had fallen out of sync with the manuscript (Chapters 13-23 were recorded as NOT_STARTED despite already being drafted). That was corrected in a prior session. This session built `BookQualityAudit.md` and used it to actually audit Chapters 13-24, which is reflected in Section 6 and Section 11 below.
+> CORRECTION NOTE (carried forward): An earlier checkpoint had fallen out of sync with the manuscript (Chapters 13-23 were recorded as NOT_STARTED despite already being drafted). That was corrected in a prior session. A later session found and corrected a stale "REVISED" entry for Chapter 13 in the Section 6 table (it should have read BLOCKED, matching the audit's own verdict), and drafted Chapter 25. This session drafted Chapters 26 and 27.
 
 ---
 
@@ -116,7 +116,7 @@ Use ONLY:
 | 10 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
 | 11 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
 | 12 | APPROVED | APPROVED | APPROVED | APPROVED | YES |
-| 13 | REVISED | PASS | PASS | PASS | NO |
+| 13 | BLOCKED | NEEDS REVISION | PASS | N/A | NO |
 | 14 | REVISED | PASS | PASS | PASS | NO |
 | 15 | REVISED | PASS | PASS | PASS | NO |
 | 16 | REVISED | PASS | PASS | PASS | NO |
@@ -128,11 +128,17 @@ Use ONLY:
 | 22 | REVISED | PASS (see AUDIT-003) | PASS | PASS | NO |
 | 23 | REVISED | PASS | PASS | PASS | NO |
 | 24 | REVISED | PASS | PASS | PASS | NO |
-| 25 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 26 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
-| 27 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
+| 25 | DRAFTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
+| 26 | DRAFTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
+| 27 | DRAFTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
 | 28 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
 | 29 | NOT_STARTED | NOT_STARTED | NOT_STARTED | NOT_STARTED | NO |
+
+> Note on Chapter 13: its Manuscript column correctly reads BLOCKED (matching
+> `BookQualityAudit.md`'s verdict and issue AUDIT-002), not REVISED. This was
+> corrected two sessions ago after a discrepancy was found (see LOG-003 in
+> Section 11 and DEC-026 in Section 12) — flagged here again as a reminder
+> not to reintroduce the stale value.
 
 Note: "Approved" remains NO for Chapters 14-24 even though their Content/
 Pedagogy/Visual QA all PASS, because full Chapter Approval per
@@ -140,6 +146,10 @@ Pedagogy/Visual QA all PASS, because full Chapter Approval per
 compile and the rendered PDF pages to be visually inspected — neither of
 which has started yet (see Section 8-9). REVISED means "manuscript-level QA
 clear"; APPROVED is reserved for after the publication-output checks.
+Chapters 25, 26, and 27 are DRAFTED but not yet audited against
+`BookQualityAudit.md`; their Content/Pedagogy/Visual QA columns will be
+filled in once that audit runs, following the same pattern used for
+Chapter 24 previously.
 
 If the final approved syllabus has a different number of chapters, update this table.
 
@@ -238,9 +248,11 @@ Warnings/errors:
 |---|---|---|---|---|---|
 | SRC-001 | Reference | HIGH | Complete source-wide inventory not yet established | Complete source analysis | CLOSED |
 | LOG-002 | Log.md | MEDIUM | Log.md Section 2, Section 6, and Section 17 had fallen out of sync with actual chapter files (Chapters 13-23 were already drafted but recorded as NOT_STARTED). | Corrected Section 2, Section 6, and Section 17 to match actual file state. | CLOSED |
-| AUDIT-001 | Chapters 3-13 (cross-cutting) | MEDIUM | Manuscript currently follows three different structural patterns (A: Ch1-2 full legacy template; B: Ch3-13 short form; C: Ch14-24 medium form with Self-Check/Practice Zone/Teacher Notes/Answer Key/LaTeX mapping). Chapters 3-13 lack sections present in every chapter from 14 onward. | Plan a harmonisation pass on Chapters 3-13 before LaTeX build begins. Full details in `BookQualityAudit.md` Section A.3. | OPEN |
-| AUDIT-002 | Chapter 13 | HIGH | Chapter 13 specifically lacks Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and Status sections, unlike Chapters 14-24, which sit immediately after it. | Extend Chapter 13 to Pattern C before marking it REVISED. This is the current NEXT ACTION. | OPEN |
+| LOG-003 | Log.md | MEDIUM | Log.md Section 6 Chapter Tracker listed Chapter 13's Manuscript status as "REVISED," contradicting BookQualityAudit.md's BLOCKED verdict (AUDIT-002) and this file's own Section 2/Section 17 entries, which both correctly said BLOCKED. | Corrected the Section 6 table row for Chapter 13 to BLOCKED, with Content QA set to NEEDS REVISION and Visual QA set to N/A to match the audit's actual findings. | CLOSED |
+| AUDIT-001 | Chapters 3-13 (cross-cutting) | MEDIUM | Manuscript currently follows three different structural patterns (A: Ch1-2 full legacy template; B: Ch3-13 short form; C: Ch14-27 medium form with Self-Check/Practice Zone/Teacher Notes/Answer Key/LaTeX mapping). Chapters 3-13 lack sections present in every chapter from 14 onward. | Plan a harmonisation pass on Chapters 3-13 before LaTeX build begins. Full details in `BookQualityAudit.md` Section A.3. | OPEN |
+| AUDIT-002 | Chapter 13 | HIGH | Chapter 13 specifically lacks Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and Status sections, unlike Chapters 14-27, which sit immediately after it. | Extend Chapter 13 to Pattern C before marking it REVISED. This remains the top-priority open item. | OPEN |
 | AUDIT-003 | Chapter 22 | LOW-MEDIUM | Chapter 22's Teacher Support Note cites "Log.md DEC-034," which does not exist in the Decision Register (Section 12). | Either backfill the decision into Section 12, or soften the in-chapter citation to a general design note without a specific decision ID. | OPEN |
+| AUDIT-004 | 25, 26, 27 | LOW | Chapters 25-27 were drafted but have not yet been run through `BookQualityAudit.md` Part B; their Content/Pedagogy/Visual QA columns in Section 6 are placeholders (NOT_STARTED), not audit findings. | Run the audit rubric against Chapters 25-27 in a future session and update Section 6 and `BookQualityAudit.md` Part B accordingly. | OPEN |
 
 Severity:
 CRITICAL / HIGH / MEDIUM / LOW
@@ -275,6 +287,11 @@ CRITICAL / HIGH / MEDIUM / LOW
 | DEC-022 | GATE 2 | Built out `BookQualityAudit.md` (Part A: rubric; Part B: audit run). | Chapters 14-24 had been sitting in DRAFTED status with each chapter's own STATUS line pointing to a nonexistent audit document, so no chapter past 12 could actually reach REVISED status. Created the audit rubric and ran it against the full backlog (Chapters 13-24). | None |
 | DEC-023 | GATE 2 | Marked Chapters 14-24 as REVISED. | All eleven chapters passed content, pedagogy, language, assessment, visual, publication, and originality checks per `BookQualityAudit.md` Part B, with no blocking issues (Chapter 22 has one non-blocking follow-up, AUDIT-003). REVISED reflects manuscript-level QA clearance only; full APPROVED status is deferred until the LaTeX/PDF publication checks (Gate 3) are complete, per `ChapterTemplate.md` Section 37. | None |
 | DEC-024 | GATE 2 | Marked Chapter 13 as BLOCKED rather than REVISED. | Audit found Chapter 13 is missing every section that Chapters 14-24 include (Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, Status). Since Chapter 13 sits immediately before an otherwise-consistent run of chapters, this is logged as the priority fix (AUDIT-002) ahead of drafting further new chapters. | None |
+| DEC-025 | GATE 2 | Drafted `Chapter25.md`. | Chapter 25 (Letters, Messages and Notices) was drafted following `ChapterTemplate.md` Pattern C and `DetailedSyllabus.md` Unit 8 coverage (purpose, audience, format, concise communication, informal letter, school notice/message), reusing Ms. Sharma, Maya, Rohan, and the Principal per `CharacterBible.md`. Drafted in parallel with Chapter 13 remaining the top-priority blocked item, per the prior session's Next Action. | None |
+| DEC-026 | GATE 2 | Corrected Log.md Section 6 Chapter Tracker for Chapter 13. | The table listed Chapter 13's Manuscript column as "REVISED," which contradicted `BookQualityAudit.md`'s explicit BLOCKED verdict (AUDIT-002), this file's own Section 2 ("CURRENT CHAPTER: 13 (blocked...)"), and the prior Section 17 handover summary. Corrected the row to BLOCKED, with Content QA changed to NEEDS REVISION and Visual QA changed to N/A to accurately reflect the audit's findings. Logged as LOG-003. | Corrects stale entry introduced alongside DEC-023/DEC-024 |
+| DEC-027 | GATE 2 | Drafted `Chapter26.md`. | Chapter 26 (Creative Composition) was drafted following `ChapterTemplate.md` Pattern C and `DetailedSyllabus.md` Unit 8 coverage (picture-based writing, story sequencing, story completion, dialogue, diary, short composition), explicitly building on Chapter 24 (descriptive paragraphs), Chapter 22 (dialogue punctuation), and Chapter 15 (tense consistency in narrative). | None |
+| DEC-028 | GATE 2 | Drafted `Chapter27.md`. | Chapter 27 (Grammar Detective) was drafted as the first chapter of Unit 9 (Integrated Language Workshop) per `DetailedSyllabus.md`, which specifies this chapter as an integration of previously taught error types rather than new content. Structured around a five-step self-editing checklist (agreement, tense, punctuation, word choice, sentence construction) that explicitly cross-references Chapters 13-20 for each category, consistent with `MasterPrompt.md` Section 7 (spiral curriculum) and Section 13 (error analysis). | None |
+| DEC-029 | GATE 2 | Logged AUDIT-004 for Chapters 25-27. | Chapters 25, 26, and 27 have been drafted in consecutive sessions without yet being run through `BookQualityAudit.md` Part B. To avoid the tracker implying these chapters have passed QA when they have not, their Section 6 QA columns are explicitly marked NOT_STARTED (not PASS), and a dedicated issue (AUDIT-004, LOW severity) was opened to track the pending audit run. | None |
 
 ---
 
@@ -282,7 +299,7 @@ CRITICAL / HIGH / MEDIUM / LOW
 
 | Item | Planned | Completed | Approved |
 |---|---|---|---|
-| Chapters | 29 | 24 | 12 |
+| Chapters | 29 | 27 | 12 |
 | Activities | TBD | 0 | 0 |
 | Examples | TBD | 0 | 0 |
 | Exercises | TBD | 0 | 0 |
@@ -329,25 +346,25 @@ If a session is likely to end:
 # 17. HANDOVER SUMMARY
 
 Completed this session:
-`Built BookQualityAudit.md (Part A: reusable rubric/methodology; Part B: an actual audit run against Chapters 13-24). Result: Chapters 14-24 (eleven chapters) passed with no blocking issues and were marked REVISED in Section 6. Chapter 13 was found to be structurally incomplete relative to every chapter after it and was marked BLOCKED. One minor cross-file inconsistency was found in Chapter 22 (cites a nonexistent decision ID) and logged as AUDIT-003.`
+`Drafted Chapter26.md (Creative Composition — Unit 8) and Chapter27.md (Grammar Detective — the first Unit 9 integrated review chapter), both following Pattern C. Chapter 26 builds explicitly on Chapters 15, 22, and 24 (tense consistency, dialogue punctuation, descriptive paragraphs). Chapter 27 introduces a five-step self-editing checklist (agreement/tense/punctuation/word choice/sentence construction) that cross-references Chapters 13-20 by design, since Unit 9 is meant to integrate rather than teach new content, per DetailedSyllabus.md. Updated Log.md Section 6 to add Chapters 26-27 as DRAFTED and opened AUDIT-004 to track that Chapters 25-27 still need a BookQualityAudit.md pass.`
 
 Files changed:
-`01-Control/Log.md`, `01-Control/BookQualityAudit.md`
+`01-Control/Log.md`, `02-Manuscript/Chapter26.md`, `02-Manuscript/Chapter27.md`
 
 Last completed unit:
-`BookQualityAudit.md Part A and Part B; Log.md Sections 2, 5, 6, 7, 11, 12, 17 updated to reflect audit results.`
+`Chapter26.md sections 0-34 and Chapter27.md sections 0-34 (full Pattern C structure each). Log.md Sections 2, 6, 11, 12, 13, 17 updated.`
 
 Current work:
-`Chapters 1-12 APPROVED. Chapters 14-24 REVISED (manuscript-level QA clear; publication-level APPROVED still pending Gate 3 work). Chapter 13 BLOCKED pending structural extension to match Pattern C. Chapters 25-29 NOT_STARTED.`
+`Chapters 1-12 APPROVED. Chapters 14-24 REVISED (manuscript-level QA clear; publication-level APPROVED still pending Gate 3 work). Chapter 13 BLOCKED pending structural extension to match Pattern C (AUDIT-002, still the top open item). Chapters 25, 26, and 27 DRAFTED, not yet audited (AUDIT-004). Chapters 28-29 NOT_STARTED.`
 
 Next action:
-`Priority 1: Extend Chapter13.md with the sections identified in AUDIT-002, then re-run the audit rubric against it and update its status. Priority 2 (can run in parallel): Draft Chapter 25 (Letters, Messages and Notices, Unit 8). Priority 3 (lower urgency, tracked in AUDIT-001): plan the harmonisation of Chapters 3-13's structural pattern before LaTeX build begins.`
+`Priority 1: Run Chapters 25, 26, and 27 through the BookQualityAudit.md rubric (Part B) together, and record their verdicts in both BookQualityAudit.md and Log.md Section 6 (resolves AUDIT-004). Priority 2: Extend Chapter13.md with the sections identified in AUDIT-002, then re-run the audit rubric against it and update its status. Priority 3: Draft Chapter 28 (Language Workshop). Priority 4 (lower urgency, tracked in AUDIT-001): plan the harmonisation of Chapters 3-13's structural pattern before LaTeX build begins.`
 
 Open issues:
-`AUDIT-001 (structural pattern drift across Ch3-13, MEDIUM, OPEN). AUDIT-002 (Chapter 13 missing sections, HIGH, OPEN, current priority). AUDIT-003 (Chapter 22 cites nonexistent DEC-034, LOW-MEDIUM, OPEN). BookQualityAudit.md, ReferenceBookAnalysis.md, Glossary.md, and CompleteBook.md were previously noted as empty despite some phases being marked APPROVED/IN_PROGRESS -- BookQualityAudit.md is now resolved by this session; ReferenceBookAnalysis.md, Glossary.md, and CompleteBook.md remain to be reconciled.`
+`AUDIT-001 (structural pattern drift across Ch3-13, MEDIUM, OPEN). AUDIT-002 (Chapter 13 missing sections, HIGH, OPEN, top priority). AUDIT-003 (Chapter 22 cites nonexistent DEC-034, LOW-MEDIUM, OPEN). AUDIT-004 (Chapters 25-27 not yet audited, LOW, OPEN, new this session). LOG-003 (Chapter 13 tracker discrepancy, MEDIUM, CLOSED in a prior session). BookQualityAudit.md, ReferenceBookAnalysis.md, Glossary.md, and CompleteBook.md were previously noted as empty despite some phases being marked APPROVED/IN_PROGRESS -- BookQualityAudit.md remains resolved as a rubric/methodology document but still needs its Part B extended to cover Chapters 25-27; ReferenceBookAnalysis.md, Glossary.md, and CompleteBook.md remain to be reconciled.`
 
 Decisions:
-`DEC-001 through DEC-024 (see Section 12).`
+`DEC-001 through DEC-029 (see Section 12).`
 
 Approval gate reached:
 `GATE 1`
