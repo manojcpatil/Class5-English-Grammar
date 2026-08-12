@@ -424,3 +424,129 @@ In this chapter, we learned:
 -   A **singular noun** means one (`book`).
 -   A **plural noun** means more than one (`books`).
 -   We form plurals in different ways, like adding **-s**, **-es**, or changing **-y** to **-ies**.
+---
+
+## 18. QUICK CHECK
+
+1. What is a noun?
+2. Give one example each of a common noun and a proper noun.
+3. Correct the capitalisation: "i live in mumbai."
+4. What is the plural of "city"?
+5. Name one proper noun that is not a person's name.
+
+---
+
+## 19. THINK DEEPER
+
+1. Why do you think proper nouns need capital letters but common nouns usually don't?
+2. Can the same word be a common noun in one sentence and part of a proper noun in another (e.g., "river" vs. "Ganga River")? Explain with an example.
+3. Why might a writer choose a proper noun ("Bruno") instead of a common noun ("the dog") in a story?
+
+---
+
+## 20. CREATE YOUR OWN
+
+- Write three sentences, each using one common noun and one proper noun.
+- Create a short "Grammar Detective" sentence of your own with a capitalisation mistake for a partner to find and fix.
+
+---
+
+## 21. SUMMARY
+
+(See Section 17, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 22. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Noun | A word that names a person, place, animal, or thing |
+| Common noun | A general name for a person, place, animal, or thing |
+| Proper noun | The special name of a particular person, place, animal, or thing; always capitalised |
+| Singular noun | A noun naming one person, place, animal, or thing |
+| Plural noun | A noun naming more than one person, place, animal, or thing |
+
+---
+
+## 23. SELF-CHECK
+
+I can:
+
+- [ ] identify nouns in sentences and short paragraphs.
+- [ ] categorise nouns as a person, place, animal, or thing.
+- [ ] distinguish between a common noun and a proper noun.
+- [ ] use capital letters for proper nouns correctly.
+- [ ] form the plural of a noun correctly.
+
+---
+
+## 24. PRACTICE ZONE
+
+A. **Identify** [R] — Underline all nouns in five sentences.
+B. **Classify** [U] — Sort a list of nouns into common and proper.
+C. **Complete** [U] — Fill in the correct plural form of given nouns.
+D. **Correct** [A] — Rewrite sentences with correct capitalisation of proper nouns.
+E. **Rearrange/Transform** [A] — Change singular nouns to plural (and back) within a sentence.
+F. **Explain** [AN] — Explain why a given word is a common noun or a proper noun.
+G. **Apply** [A] — Write a short paragraph about your family using at least three proper nouns.
+H. **Create** [C] — Write your own "noun hunt" list from objects in your home.
+
+---
+
+## 25. REAL-LIFE TASK
+
+Look at a book, cereal box, or notice at home. Find and write down two common nouns and two proper nouns you see, and explain how you know which is which.
+
+---
+
+## 26. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often forget to capitalise proper nouns embedded mid-sentence (days, months, festivals, specific place names), or over-capitalise common nouns by habit.
+
+Support strategy: Keep a running class list of proper nouns spotted during the week (names, places, festivals) as a visible reference chart.
+
+Extension: Introduce nouns that are proper only in certain contexts (e.g., "President," "the North") as a brief enrichment note for advanced learners.
+
+Challenge: Ask advanced learners to find five proper nouns in a piece of their own recent writing and check each is capitalised correctly.
+
+---
+
+## 27. ANSWER KEY DATA
+
+**Section 18 (Quick Check):**
+1. A word that names a person, place, animal, or thing.
+2. Any valid pair, e.g., common: "boy"; proper: "Rohan."
+3. "I live in Mumbai."
+4. cities
+5. Any valid example, e.g., "India," "Diwali," "Monday."
+
+For open-ended items (Sections 19, 20, 25): accept any grammatically correct response demonstrating the correct common/proper distinction and capitalisation. Evaluation criteria: correct noun identification, correct capitalisation, original content.
+
+---
+
+## 28. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Grammar Word (implicit — Concept Discovery) | `grammarword` |
+| Guided/Independent Practice | `activitybox` |
+| Grammar Detective | `detectivebox` |
+| Common Confusions | `warningbox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 29. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter03.tex` during typesetting, following the same structure as Chapter 13's LaTeX file.
+
+---
+
+## 30. STATUS
+
+`Chapter 3 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope. Pending re-review against BookQualityAudit.md before REVISED status.`

@@ -267,3 +267,125 @@ In this chapter, we learned about three special types of nouns:
 | **Collective Noun** | A group of people, animals, or things. | a **team** of players |
 | **Material Noun** | The substance something is made from. | a chair made of **plastic** |
 | **Abstract Noun** | An idea, feeling, quality, or state. | a feeling of **happiness** |
+---
+
+## 11. QUICK CHECK
+
+1. What is a collective noun? Give one example.
+2. What is a material noun? Give one example.
+3. What is an abstract noun? Give one example.
+4. Is "team" collective, material, or abstract?
+5. Give one word that can be a material noun in one sentence and a common noun in another.
+
+---
+
+## 12. THINK DEEPER
+
+1. Why do you think abstract nouns are harder to picture than collective or material nouns?
+2. Can a word be both a collective noun and a material noun in different sentences? Try to think of one.
+3. Why might a writer use an abstract noun like "courage" instead of describing an action in detail?
+
+---
+
+## 13. CREATE YOUR OWN
+
+- Write three sentences, each using one collective, one material, and one abstract noun.
+- Create your own "secret identity" pair of sentences (like "glass"/"a glass") for a partner to identify.
+
+---
+
+## 14. SUMMARY
+
+(See Section 10, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 15. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Collective noun | A word naming a group of people, animals, or things |
+| Material noun | The name of a material or substance something is made from |
+| Abstract noun | The name of a quality, feeling, idea, or state you cannot see or touch |
+
+---
+
+## 16. SELF-CHECK
+
+I can:
+
+- [ ] define a collective noun and give examples.
+- [ ] define a material noun and give examples.
+- [ ] define an abstract noun and give examples.
+- [ ] categorise nouns into collective, material, and abstract.
+- [ ] use different types of nouns correctly in sentences.
+
+---
+
+## 17. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the collective, material, or abstract noun in five sentences.
+B. **Classify** [U] — Sort a list of nouns into the three categories.
+C. **Complete** [U] — Fill in the blank with a suitable collective noun.
+D. **Correct** [A] — Fix a sentence that uses the wrong noun type for its meaning.
+E. **Rearrange/Transform** [A] — Rewrite a sentence replacing a phrase with a single abstract noun (e.g., "being honest" → "honesty").
+F. **Explain** [AN] — Explain why a given word is collective, material, or abstract in its sentence.
+G. **Apply** [A] — Write a short paragraph describing a group activity using at least one noun of each type.
+H. **Create** [C] — Build your own three-column sorting list of nouns for a partner to classify.
+
+---
+
+## 18. REAL-LIFE TASK
+
+Look around your home. Find one collective noun (a group of things), one material noun (what something is made of), and one abstract noun (a feeling or idea) that apply to something you see or feel right now. Write a sentence for each.
+
+---
+
+## 19. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often confuse material nouns with common nouns naming the object itself (e.g., "glass" the material vs. "a glass" the object), or struggle to think of abstract nouns since they cannot be seen.
+
+Support strategy: Use the "secret identity" Grammar Detective activity (Section 8) as a recurring warm-up with new word pairs (e.g., "iron," "paper," "wood").
+
+Extension: Introduce a few more abstract nouns tied to classroom values (respect, patience, teamwork).
+
+Challenge: Ask advanced learners to find a single sentence where the same word functions as two different noun types depending on which part of the sentence it appears in.
+
+---
+
+## 20. ANSWER KEY DATA
+
+**Section 11 (Quick Check):**
+1. A word naming a group, e.g., "team," "flock."
+2. The name of a substance something is made from, e.g., "wood," "gold."
+3. The name of a quality, feeling, or idea, e.g., "honesty," "joy."
+4. Collective.
+5. Any valid example, e.g., "chicken" (material: cooked chicken; common: the live bird).
+
+For open-ended items (Sections 12, 13, 18): accept any grammatically correct response with the correct noun-type classification. Evaluation criteria: correct type identification, sensible original content.
+
+---
+
+## 21. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Guided/Independent Practice | `activitybox` |
+| Grammar Detective | `detectivebox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 22. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter04.tex` during typesetting, following the same structure as Chapter 3's LaTeX file.
+
+---
+
+## 23. STATUS
+
+`Chapter 4 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope. Pending re-review against BookQualityAudit.md before REVISED status.`

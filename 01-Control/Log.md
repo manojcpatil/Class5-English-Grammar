@@ -30,16 +30,16 @@ CURRENT GATE:
 `GATE 2`
 
 CURRENT ARTIFACT:
-`BookQualityAudit.md` (Part B) and `Log.md`
+`CompleteBook.md`
 
 CURRENT CHAPTER:
 `None currently blocked — all 29 chapters now at REVISED manuscript status`
 
 CURRENT TASK:
-`Ran the full BookQualityAudit.md rubric against Chapters 13, 22, and 25-29 (the entire remaining backlog), chapter by chapter. Chapter 13 was re-audited after its earlier Pattern C extension. Chapter 22's stale decision citation (AUDIT-003) was resolved. Chapters 25-27 and 28-29 (drafted in the prior session) were audited for the first time. Three genuine content/answer-key errors were discovered and corrected during this pass (Chapter 27: a missed subject-verb agreement error; Chapter 28: a reported-speech scope violation; Chapter 29: three answer-key defects). All findings and fixes are logged in BookQualityAudit.md Part B and DEC-030 through DEC-036 below.`
+`Assembled CompleteBook.md by concatenating all 29 individual chapter files (in current form, including the Chapters 3-12 Pattern C extensions) in syllabus order, with a title page, status note, and table of contents prepended. This completes the "Full manuscript" phase dependency that was previously blocking it from moving past IN_PROGRESS.`
 
 NEXT ACTION:
-`Priority 1: Project owner should review and formally close GATE 2 ("Full Manuscript Approved" — content QA of all chapters), since manuscript-level QA has now passed for all 29 chapters with zero open blocking issues. This is a recommendation, not an automatic approval — see Section 4. Priority 2: Begin the AUDIT-001 harmonisation pass on Chapters 3-13's structural pattern (Pattern A/B/C drift) before LaTeX build begins; this is now the only open issue in the register. Priority 3: Once Gate 2 is formally closed, begin GATE 3 work — assemble CompleteBook.md, then start the LaTeX conversion (main.tex, preamble.tex, chapter files).`
+`Priority 1: Project owner should review and formally close GATE 2 ("Full Manuscript Approved"), since manuscript-level QA has passed for all 29 chapters, the sole open structural issue (AUDIT-001) is resolved, and CompleteBook.md is now assembled. Priority 2: Once Gate 2 is formally closed, begin GATE 3 work — LaTeX conversion (main.tex, preamble.tex, chapter files, compilation) from CompleteBook.md.`
 
 LAST APPROVED ARTIFACT:
 `Chapter12.md`
@@ -91,8 +91,8 @@ Use ONLY:
 | Glossary | APPROVED | Glossary.md | Syllabus |
 | Image system | APPROVED | ImagePromptLibrary.md | Template |
 | Pilot chapter | APPROVED | Chapter01.md | Approved template |
-| Full manuscript | IN_PROGRESS | CompleteBook.md | Pilot |
-| Manuscript QA | UNDER_REVIEW | BookQualityAudit.md | CompleteBook |
+| Full manuscript | REVISED | CompleteBook.md | Pilot |
+| Manuscript QA | REVISED | BookQualityAudit.md | CompleteBook |
 | LaTeX | NOT_STARTED | main.tex | Approved manuscript |
 | PDF | NOT_STARTED | FinalBook.pdf | LaTeX |
 | PDF QA | NOT_STARTED | Audit report | PDF |
@@ -100,7 +100,12 @@ Use ONLY:
 | DOCX QA | NOT_STARTED | Audit report | DOCX |
 | Final release | NOT_STARTED | 06-Final/* | All QA |
 
-> Note on "Manuscript QA" status: moved from IN_PROGRESS to UNDER_REVIEW this session. All 29 chapters have individually passed the `BookQualityAudit.md` rubric (REVISED), but `CompleteBook.md` itself (the single assembled manuscript file) has not yet been generated from the individual chapter files, so the phase is not marked APPROVED. Assembling `CompleteBook.md` is a "Full manuscript" phase dependency that remains IN_PROGRESS.
+> Note on "Manuscript QA" status: all 29 chapters have individually passed
+the `BookQualityAudit.md` rubric (REVISED), and `CompleteBook.md` has now
+been assembled from the 29 individual chapter files (in their current,
+Pattern-C-harmonised form). Both rows are marked REVISED; formal GATE 2
+sign-off by the project owner is still a separate, distinct step (see
+Section 4).
 
 ---
 
@@ -167,16 +172,18 @@ If the final approved syllabus has a different number of chapters, update this t
 
 | Output | Source | Status | QA | Approved |
 |---|---|---|---|---|
-| Markdown manuscript | Chapters/*.md | IN_PROGRESS | UNDER_REVIEW | NO |
-| CompleteBook.md | Markdown chapters | NOT_STARTED | NOT_STARTED | NO |
+| Markdown manuscript | Chapters/*.md | REVISED | REVISED | NO |
+| CompleteBook.md | Markdown chapters | DRAFTED | NOT_STARTED | NO |
 | LaTeX | CompleteBook.md | NOT_STARTED | NOT_STARTED | NO |
 | PDF | LaTeX | NOT_STARTED | NOT_STARTED | NO |
 | DOCX | Approved manuscript | NOT_STARTED | NOT_STARTED | NO |
 
-> "Markdown manuscript" QA moved from IN_PROGRESS to UNDER_REVIEW to reflect
-> that all 29 individual chapter files have passed manuscript-level QA; the
-> row remains IN_PROGRESS overall pending `CompleteBook.md` assembly and
-> formal Gate 2 sign-off.
+> "Markdown manuscript" status/QA updated to REVISED to reflect that all 29
+> individual chapter files have passed manuscript-level QA and the AUDIT-001
+> harmonisation pass is complete. `CompleteBook.md` has been assembled
+> (DRAFTED) but has not yet undergone its own single-file QA pass (checking
+> chapter breaks, ordering, and cross-references render correctly) —
+> recommended before or during the LaTeX conversion step.
 
 ---
 
@@ -262,7 +269,7 @@ Warnings/errors:
 | SRC-001 | Reference | HIGH | Complete source-wide inventory not yet established | Complete source analysis | CLOSED |
 | LOG-002 | Log.md | MEDIUM | Log.md Section 2, Section 6, and Section 17 had fallen out of sync with actual chapter files (Chapters 13-23 were already drafted but recorded as NOT_STARTED). | Corrected Section 2, Section 6, and Section 17 to match actual file state. | CLOSED |
 | LOG-003 | Log.md | MEDIUM | Log.md Section 6 Chapter Tracker listed Chapter 13's Manuscript status as "REVISED," contradicting BookQualityAudit.md's BLOCKED verdict (AUDIT-002) and this file's own Section 2/Section 17 entries, which both correctly said BLOCKED. | Corrected the Section 6 table row for Chapter 13 to BLOCKED, with Content QA set to NEEDS REVISION and Visual QA set to N/A to match the audit's actual findings. | CLOSED |
-| AUDIT-001 | Chapters 3-13 (cross-cutting) | MEDIUM | Manuscript currently follows three different structural patterns (A: Ch1-2 full legacy template; B: Ch3-13 short form; C: Ch14-29 medium form with Self-Check/Practice Zone/Teacher Notes/Answer Key/LaTeX mapping, except Ch29 which deliberately departs from Pattern C for justified reasons — see AUDIT-007 resolution notes). Chapters 3-12 still lack sections present in every chapter from 13 onward. | Plan a harmonisation pass on Chapters 3-12 before LaTeX build begins. Full details in `BookQualityAudit.md` Section A.3. | OPEN |
+| AUDIT-001 | Chapters 3-13 (cross-cutting) | MEDIUM | Manuscript previously followed three different structural patterns (A: Ch1-2 full legacy template; B: Ch3-13 short form; C: Ch14-29 medium form). Chapters 3-12 lacked sections present in every chapter from 13 onward. | Harmonisation pass completed: Chapters 3-12 each extended with Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and Status sections, matching Pattern C. Verified in `BookQualityAudit.md` Section B.4. Chapters 1-2 (Pattern A) remain explicitly out of scope. | CLOSED |
 | AUDIT-002 | Chapter 13 | HIGH | Chapter 13 specifically lacked Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and Status sections, unlike Chapters 14-27, which sit immediately after it. | Chapter 13 was extended to Pattern C in a prior session and re-audited this session (DEC-030). Content, pedagogy, and publication checks all passed; the chapter's Status line was updated to reflect the completed review. | CLOSED |
 | AUDIT-003 | Chapter 22 | LOW-MEDIUM | Teacher Support Note cites "Log.md DEC-034," which does not exist in the Decision Register. | Citation softened to a general design note without a specific decision ID, per the audit's own recommended remedy (DEC-031). | CLOSED |
 | AUDIT-004 | 25, 26, 27 | LOW | Chapters 25-27 were drafted but had not yet been run through `BookQualityAudit.md` Part B; their Content/Pedagogy/Visual QA columns in Section 6 were placeholders (NOT_STARTED), not audit findings. | Audit rubric run against Chapters 25-27 this session (DEC-032, DEC-033). Chapters 28-29, drafted in the same prior session as part of this backlog, were audited alongside them. Section 6 and `BookQualityAudit.md` Part B updated accordingly. | CLOSED |
@@ -273,7 +280,7 @@ Warnings/errors:
 Severity:
 CRITICAL / HIGH / MEDIUM / LOW
 
-**Open issues remaining: 1 (AUDIT-001 only).**
+**Open issues remaining: 0.**
 
 ---
 
@@ -316,7 +323,9 @@ CRITICAL / HIGH / MEDIUM / LOW
 | DEC-033 | GATE 2 | Audited Chapter 27, found and corrected a genuine content error, and marked it REVISED. | Section 15's Grammar Detective answer key incorrectly treated "there was lots of colourful stalls" as already correct; the subject-verb agreement rule taught in Chapter 13 requires "were," since "lots of" agrees with the plural noun that follows it. Corrected the passage's answer key and explanatory guidance. | Contributes to resolving AUDIT-004; logged and closed as AUDIT-005. |
 | DEC-034 | GATE 2 | Audited Chapter 28, found and corrected a scope violation, and marked it REVISED. | Independent Practice #2 asked learners to convert a command into reported speech, exceeding Chapter 22's explicit statements-only scope at this level. Replaced with a statement-based transformation instead. | Logged and closed as AUDIT-006. |
 | DEC-035 | GATE 2 | Audited Chapter 29, found and corrected three answer-key defects, ratified its structural departure from Pattern C, and marked it REVISED. | An editorial artifact, an internally inconsistent vocabulary-sorting answer, and an incorrect error count (eight stated vs. nine actual) were all corrected. Chapter 29's deliberate departure from the Pattern C section sequence (per `ChapterTemplate.md` Section 38) was reviewed and ratified as appropriate for a revision/testing chapter, not treated as a defect. | Logged and closed as AUDIT-007. |
-| DEC-036 | GATE 2 | Closed AUDIT-002, AUDIT-003, and AUDIT-004 in the Issue Register following DEC-030 through DEC-035. | All three issues were fully resolved by this session's chapter-by-chapter audit pass. AUDIT-001 (structural pattern drift across Chapters 3-13) remains the only open issue in the register. | None |
+| DEC-036 | GATE 2 | Closed AUDIT-002, AUDIT-003, and AUDIT-004 in the Issue Register following DEC-030 through DEC-035. | All three issues were fully resolved by this session's chapter-by-chapter audit pass. AUDIT-001 (structural pattern drift across Chapters 3-13) remained the only open issue in the register at that point. | None |
+| DEC-037 | GATE 2 | Extended Chapters 3-12 to Pattern C, resolving AUDIT-001. | Chapters 3-12 previously followed the short-form Pattern B (stopping around "Let's Summarise"), unlike every chapter from 13 onward. Each of the ten chapters was extended with the same section set added to Chapter 13 during its own earlier Pattern C extension (Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, Status), with no changes to existing taught content or scope. Verified in `BookQualityAudit.md` Section B.4. Chapters 1-2 (Pattern A) were left untouched, as they were explicitly out of scope for AUDIT-001. | None |
+| DEC-038 | GATE 2 | Assembled `CompleteBook.md` from all 29 chapter files. | With AUDIT-001 resolved, all 29 chapter files now share a consistent structural pattern (Chapters 1-2 on Pattern A; 3-29 on Pattern C). Concatenated the 29 files in syllabus order (Chapters 1-29) with a title page, status note, and table of contents prepended, and `\newpage` separators between chapters for future LaTeX/PDF use. This resolves the "Full manuscript" phase dependency that had kept it at IN_PROGRESS. | None |
 
 ---
 

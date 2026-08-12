@@ -236,3 +236,124 @@ In this chapter, we learned that **prepositions** are connecting words that show
 | **Preposition of Direction** | *Where* something is going. | He walked **to** the store. |
 
 > **Key Idea:** Prepositions help us build clear and detailed sentences by showing how things are related!
+---
+
+## 12. QUICK CHECK
+
+1. What is a preposition?
+2. Give an example of a preposition of place.
+3. Give an example of a preposition of time.
+4. Underline the preposition: "The cat is under the table."
+5. Fill in a suitable preposition: "School starts ___ 9 AM."
+
+---
+
+## 13. THINK DEEPER
+
+1. Why do you think small words like "in," "on," and "at" can be so easy to mix up, even for confident speakers?
+2. Can the same preposition describe both place and time? Try "at" (e.g., "at the door" vs. "at 5 o'clock").
+3. Why might giving directions clearly depend so much on choosing the right preposition?
+
+---
+
+## 14. CREATE YOUR OWN
+
+- Write three sentences, each using a preposition of a different kind (place, time, direction).
+- Create a short "Grammar Detective" sentence of your own with a missing or wrong preposition for a partner to fix.
+
+---
+
+## 15. SUMMARY
+
+(See Section 11, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 16. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Preposition | A word that shows the relationship between a noun/pronoun and other words |
+| Preposition of place | Tells where something is |
+| Preposition of time | Tells when something happens |
+| Preposition of direction | Tells where something is moving |
+
+---
+
+## 17. SELF-CHECK
+
+I can:
+
+- [ ] define what a preposition is.
+- [ ] identify prepositions in sentences.
+- [ ] categorise prepositions as showing place, time, or direction.
+- [ ] use common prepositions correctly in sentences.
+
+---
+
+## 18. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the preposition in five sentences.
+B. **Classify** [U] — Sort a list of prepositions into place, time, and direction.
+C. **Complete** [U] — Fill in the correct preposition to complete a sentence.
+D. **Correct** [A] — Fix a sentence using the wrong preposition (e.g., "at the box" instead of "in the box").
+E. **Rearrange/Transform** [A] — Rewrite a sentence changing its preposition to change the meaning (e.g., "under" to "on").
+F. **Explain** [AN] — Explain why a given preposition is one of place, time, or direction.
+G. **Apply** [A] — Write a short paragraph giving directions to your favourite place using at least three prepositions.
+H. **Create** [C] — Build your own "find the object" picture description using prepositions of place.
+
+---
+
+## 19. REAL-LIFE TASK
+
+Look around your room right now. Write three sentences describing where different objects are, using a different preposition of place in each.
+
+---
+
+## 20. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often use "in," "on," and "at" interchangeably without noticing the difference in meaning, especially for time expressions (in January, on Monday, at 5 o'clock).
+
+Support strategy: Build a simple class reference chart for time prepositions (in + month/year, on + day/date, at + clock time) and refer to it often.
+
+Extension: Briefly introduce common prepositional phrases (in front of, next to, in between) as enrichment.
+
+Challenge: Ask advanced learners to write a short set of directions from their classroom to the school gate using at least five different prepositions.
+
+---
+
+## 21. ANSWER KEY DATA
+
+**Section 12 (Quick Check):**
+1. A word that shows the relationship between a noun/pronoun and other words in a sentence.
+2. Any valid place preposition, e.g., "under," "on."
+3. Any valid time preposition, e.g., "at," "on."
+4. under
+5. at
+
+For open-ended items (Sections 13, 14, 19): accept any grammatically correct response using a genuine preposition of the requested type. Evaluation criteria: correct preposition type, sensible original content.
+
+---
+
+## 22. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Guided/Independent Practice | `activitybox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 23. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter10.tex` during typesetting, following the same structure as Chapter 9's LaTeX file.
+
+---
+
+## 24. STATUS
+
+`Chapter 10 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope (DEC-017's scope limitation remains unchanged). Pending re-review against BookQualityAudit.md before REVISED status.`

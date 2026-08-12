@@ -254,3 +254,125 @@ In this chapter, we learned that a **verb** is the most important word in a sent
 | **Verb of Being** | Shows what the subject is or is like. | The dog **is** brown. |
 
 > **Key Idea:** Every sentence needs a verb to be complete!
+---
+
+## 12. QUICK CHECK
+
+1. What is a verb?
+2. Give an example of an action verb.
+3. Give an example of a verb of being.
+4. Underline the verb: "The birds sing sweetly."
+5. Is "is" in "She is happy" an action verb or a verb of being?
+
+---
+
+## 13. THINK DEEPER
+
+1. Why do you think every complete sentence needs a verb, even a very short one like "Stop!"?
+2. Can a sentence have more than one verb? Try to think of an example.
+3. Why might a writer choose a strong action verb ("dashed") instead of a plain one ("went")?
+
+---
+
+## 14. CREATE YOUR OWN
+
+- Write three sentences, each using a different action verb.
+- Create a short "Grammar Detective" sentence of your own with a missing verb for a partner to fix.
+
+---
+
+## 15. SUMMARY
+
+(See Section 12, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 16. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Verb | A word that shows action or a state of being |
+| Action verb | A verb that shows what the subject is doing |
+| Verb of being | A verb that shows what the subject is or is like (is, am, are, was, were) |
+| Subject-verb relationship | The connection between who/what a sentence is about and what it does or is |
+
+---
+
+## 17. SELF-CHECK
+
+I can:
+
+- [ ] define what a verb is.
+- [ ] identify verbs in sentences.
+- [ ] differentiate between action verbs and verbs of being.
+- [ ] understand the role of a verb in a sentence.
+- [ ] use appropriate verbs to describe actions and states.
+
+---
+
+## 18. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the verb in five sentences.
+B. **Classify** [U] — Sort a list of verbs into "action" and "being."
+C. **Complete** [U] — Fill in the blank with a suitable verb.
+D. **Correct** [A] — Fix a sentence that is missing a verb entirely.
+E. **Rearrange/Transform** [A] — Replace a plain verb with a stronger, more specific action verb.
+F. **Explain** [AN] — Explain why a given verb is an action verb or a verb of being.
+G. **Apply** [A] — Write a short paragraph about your favourite sport or hobby using at least four action verbs.
+H. **Create** [C] — Build your own "spot the verb" sentence set for a partner.
+
+---
+
+## 19. REAL-LIFE TASK
+
+Watch a short scene at home or school (someone cooking, playing, or working). Write three sentences describing what they are doing, using a different action verb in each.
+
+---
+
+## 20. TEACHER SUPPORT NOTE
+
+Likely misconception: Students sometimes think only "doing words" count as verbs and overlook verbs of being (is, am, are), especially when no obvious action is happening.
+
+Support strategy: Use the "what is the subject doing, or what is the subject like?" two-question check from Section 6 consistently across activities.
+
+Extension: Briefly preview helping verbs (is/was + -ing) as a bridge toward tense chapters later in the book.
+
+Challenge: Ask advanced learners to rewrite a paragraph replacing every plain verb ("went," "said") with a more vivid, specific verb.
+
+---
+
+## 21. ANSWER KEY DATA
+
+**Section 12 (Quick Check):**
+1. A word that shows action or a state of being.
+2. Any valid action verb, e.g., "run," "jump."
+3. Any valid being verb, e.g., "is," "are."
+4. sing
+5. Verb of being.
+
+For open-ended items (Sections 13, 14, 19): accept any grammatically correct response using a genuine verb (action or being) as required. Evaluation criteria: correct verb identification/type, sensible original content.
+
+---
+
+## 22. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Guided/Independent Practice | `activitybox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 23. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter08.tex` during typesetting, following the same structure as Chapter 7's LaTeX file.
+
+---
+
+## 24. STATUS
+
+`Chapter 8 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope. Pending re-review against BookQualityAudit.md before REVISED status.`

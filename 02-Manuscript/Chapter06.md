@@ -267,3 +267,125 @@ In this chapter, we learned that **adjectives** are describing words.
 -   **Adjectives of Number** tell us *how many* (e.g., `one`, `five`, `many`).
 
 > **Key Idea:** Adjectives make our sentences more interesting and full of detail!
+---
+
+## 13. QUICK CHECK
+
+1. What is an adjective?
+2. Give an example of an adjective of quality.
+3. Give an example of an adjective of number.
+4. Is "little" in "little water" an adjective of quantity or number?
+5. Underline the adjective: "The tall boy ran fast."
+
+---
+
+## 14. THINK DEEPER
+
+1. Why might a writer use several adjectives of quality in a row (e.g., "a small, brave, clever fox")? Could using too many ever be a problem?
+2. Can the same word be an adjective of quantity in one sentence and an adjective of number in another? Give an example.
+3. Why does the order of adjectives in English usually feel "wrong" if rearranged (e.g., "red big ball" instead of "big red ball")?
+
+---
+
+## 15. CREATE YOUR OWN
+
+- Write three sentences, each using an adjective of a different kind (quality, quantity, number).
+- Create a short "Grammar Detective" sentence of your own with a missing or misplaced adjective for a partner to fix.
+
+---
+
+## 16. SUMMARY
+
+(See Section 12, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 17. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Adjective | A word that describes a noun or pronoun |
+| Adjective of quality | Describes what kind (e.g., brave, blue) |
+| Adjective of quantity | Describes how much, with uncountable nouns (e.g., some, little) |
+| Adjective of number | Describes how many, with countable nouns (e.g., five, several) |
+
+---
+
+## 18. SELF-CHECK
+
+I can:
+
+- [ ] define what an adjective is.
+- [ ] identify adjectives and the nouns they describe.
+- [ ] categorise adjectives of quality, quantity, and number.
+- [ ] use a variety of adjectives to make my writing more interesting.
+
+---
+
+## 19. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the adjective in five sentences.
+B. **Classify** [U] — Sort a list of adjectives into quality, quantity, and number.
+C. **Complete** [U] — Fill in the blank with a suitable adjective.
+D. **Correct** [A] — Fix a sentence with the wrong kind of adjective for its noun (countable/uncountable).
+E. **Rearrange/Transform** [A] — Reorder a scrambled sentence so the adjective sits correctly before its noun.
+F. **Explain** [AN] — Explain why a given word is an adjective of quality, quantity, or number.
+G. **Apply** [A] — Write a short paragraph describing your classroom using at least four adjectives.
+H. **Create** [C] — Build your own "describe the picture" activity for a partner using at least three adjectives.
+
+---
+
+## 20. REAL-LIFE TASK
+
+Choose an object you can see right now. Write three sentences describing it, using one adjective of quality, one of quantity or number, and one more of your choice.
+
+---
+
+## 21. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often confuse adjectives of quantity and number, especially with words like "some," "all," and "enough" that can describe both countable and uncountable nouns.
+
+Support strategy: Use the countable/uncountable image contrast from Section 7 as a repeatable check — "Can I count it? Then it's usually number; if not, it's usually quantity."
+
+Extension: Briefly introduce demonstrative and possessive adjectives (this, my) as a preview, without full teaching at this stage.
+
+Challenge: Ask advanced learners to write one sentence using three different kinds of adjective together, correctly ordered.
+
+---
+
+## 22. ANSWER KEY DATA
+
+**Section 13 (Quick Check):**
+1. A word that describes a noun or pronoun.
+2. Any valid quality adjective, e.g., "brave," "honest."
+3. Any valid number adjective, e.g., "five," "several."
+4. Quantity (water is uncountable).
+5. "tall" and "fast" (fast describes how he ran, functioning adverbially — accept "tall" as the clearest adjective answer at this level).
+
+For open-ended items (Sections 14, 15, 20): accept any grammatically correct response using the correct adjective type. Evaluation criteria: correct type classification, sensible original content.
+
+---
+
+## 23. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Guided/Independent Practice | `activitybox` |
+| Watch Out (Common Confusions) | `warningbox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 24. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter06.tex` during typesetting, following the same structure as Chapter 5's LaTeX file.
+
+---
+
+## 25. STATUS
+
+`Chapter 6 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope (DEC-012's scope limitation remains unchanged). Pending re-review against BookQualityAudit.md before REVISED status.`

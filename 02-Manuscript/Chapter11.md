@@ -253,3 +253,126 @@ In this chapter, we learned that **conjunctions** are joining words.
 | **S**o | Shows a result | It was raining, so we stayed inside. |
 
 > **Key Idea:** Using conjunctions makes your writing flow better and helps you express more complex ideas in a single sentence.
+---
+
+## 14. QUICK CHECK
+
+1. What is a conjunction?
+2. What does FANBOYS stand for? Name three.
+3. Combine using "and": "Rohan likes tea. Maya likes coffee."
+4. Fill in a suitable conjunction: "I was tired, ___ I went to bed."
+5. Which conjunction shows contrast: "and" or "but"?
+
+---
+
+## 15. THINK DEEPER
+
+1. Why do you think choosing the wrong conjunction can completely change the meaning of a sentence (like using "so" instead of "but")?
+2. Can two sentences be joined with more than one conjunction? Give an example.
+3. Why might a writer sometimes choose two short sentences instead of joining them with a conjunction?
+
+---
+
+## 16. CREATE YOUR OWN
+
+- Write three sentences, each using a different coordinating conjunction from FANBOYS.
+- Create a short "Grammar Detective" sentence of your own with a wrongly chosen conjunction for a partner to fix.
+
+---
+
+## 17. SUMMARY
+
+(See Section 13, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 18. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Conjunction | A word that joins words, phrases, or sentences |
+| Coordinating conjunction | A conjunction joining equal parts (FANBOYS) |
+| Compound sentence | A sentence made of two simple sentences joined by a conjunction |
+
+---
+
+## 19. SELF-CHECK
+
+I can:
+
+- [ ] define what a conjunction is.
+- [ ] identify conjunctions in sentences.
+- [ ] use coordinating conjunctions (FANBOYS) correctly.
+- [ ] combine two simple sentences into one compound sentence.
+- [ ] understand how conjunctions improve sentence flow.
+
+---
+
+## 20. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the conjunction in five sentences.
+B. **Classify** [U] — Sort a list of conjunctions by the relationship they show (addition, contrast, choice, result, reason).
+C. **Complete** [U] — Fill in the correct conjunction to complete a sentence.
+D. **Correct** [A] — Fix a sentence using the wrong conjunction for its meaning.
+E. **Rearrange/Transform** [A] — Combine two given simple sentences using a suitable conjunction.
+F. **Explain** [AN] — Explain why a given conjunction fits (or does not fit) a sentence.
+G. **Apply** [A] — Write a short paragraph about your weekend using at least three different conjunctions.
+H. **Create** [C] — Build your own sentence-chain activity (as in Section 11) for a partner.
+
+---
+
+## 21. REAL-LIFE TASK
+
+Listen to a conversation at home or read a short message. Find one sentence that uses a conjunction, write it down, and explain what relationship the conjunction shows (addition, contrast, choice, reason, or result).
+
+---
+
+## 22. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often default to "and" for every combination, even when "but," "so," or "because" would show the relationship between ideas more accurately.
+
+Support strategy: Use the FANBOYS relationship chart from Section 13 as a quick-reference wall chart, and ask "what relationship am I really showing?" before choosing a conjunction.
+
+Extension: Briefly preview subordinating conjunctions (because, when, although) as a bridge to more complex sentence-joining in later chapters.
+
+Challenge: Ask advanced learners to combine three simple sentences into one, using two different conjunctions correctly.
+
+---
+
+## 23. ANSWER KEY DATA
+
+**Section 14 (Quick Check):**
+1. A word that joins words, phrases, or sentences.
+2. For, And, Nor, But, Or, Yet, So — any three.
+3. "Rohan likes tea and Maya likes coffee."
+4. so
+5. but
+
+For open-ended items (Sections 15, 16, 21): accept any grammatically correct response using a genuine coordinating conjunction that matches the intended relationship. Evaluation criteria: correct conjunction choice, sensible original content.
+
+---
+
+## 24. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Worked Example | `examplebox` |
+| Guided/Independent Practice | `activitybox` |
+| Grammar Detective | `detectivebox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 25. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter11.tex` during typesetting, following the same structure as Chapter 10's LaTeX file.
+
+---
+
+## 26. STATUS
+
+`Chapter 11 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope. Pending re-review against BookQualityAudit.md before REVISED status.`

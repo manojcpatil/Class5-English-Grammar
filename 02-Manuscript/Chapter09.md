@@ -258,3 +258,126 @@ In this chapter, we learned that **adverbs** are words that describe verbs, adje
 -   Many adverbs of manner are formed by adding **-ly** to an adjective.
 
 > **Key Idea:** Adverbs add important details to our sentences, making them more descriptive!
+---
+
+## 13. QUICK CHECK
+
+1. What is an adverb?
+2. Give an example of an adverb of manner.
+3. Give an example of an adverb of time.
+4. Form the adverb from "quick."
+5. Underline the adverb: "The children played happily outside."
+
+---
+
+## 14. THINK DEEPER
+
+1. Why do you think many adverbs of manner end in "-ly," but not all "-ly" words are adverbs?
+2. Can an adverb describe another adverb? Try to think of an example (e.g., "very slowly").
+3. Why might a writer choose "whispered softly" instead of just "whispered"? Is this ever unnecessary repetition?
+
+---
+
+## 15. CREATE YOUR OWN
+
+- Write three sentences, each using an adverb of a different kind (manner, place, time).
+- Create a short "Grammar Detective" sentence of your own with a missing or misused adverb for a partner to fix.
+
+---
+
+## 16. SUMMARY
+
+(See Section 12, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 17. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Adverb | A word that describes a verb, adjective, or another adverb |
+| Adverb of manner | Tells how an action is done (often ends in -ly) |
+| Adverb of place | Tells where an action is done |
+| Adverb of time | Tells when an action is done |
+
+---
+
+## 18. SELF-CHECK
+
+I can:
+
+- [ ] define what an adverb is.
+- [ ] identify adverbs and the words they modify.
+- [ ] categorise adverbs of manner, place, and time.
+- [ ] form adverbs from adjectives.
+- [ ] use adverbs correctly in sentences.
+
+---
+
+## 19. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the adverb in five sentences.
+B. **Classify** [U] — Sort a list of adverbs into manner, place, and time.
+C. **Complete** [U] — Form the correct adverb from a given adjective.
+D. **Correct** [A] — Fix a sentence using an adjective where an adverb is needed (e.g., "he ran quick").
+E. **Rearrange/Transform** [A] — Move a misplaced adverb to its correct position in a sentence.
+F. **Explain** [AN] — Explain why a given word is an adverb of manner, place, or time.
+G. **Apply** [A] — Write a short paragraph about a recent activity using at least three different adverbs.
+H. **Create** [C] — Build your own "how, when, where" sentence set for a partner to label.
+
+---
+
+## 20. REAL-LIFE TASK
+
+Watch someone doing an everyday activity (cooking, walking, playing). Write three sentences describing how, when, or where they are doing it, each using a different adverb.
+
+---
+
+## 21. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often use an adjective instead of an adverb after a verb ("he ran quick" instead of "he ran quickly"), or confuse adjectives ending in -ly (friendly, lonely) with true adverbs.
+
+Support strategy: Practise the adjective-to-adverb spelling rules from Section 7 explicitly, and use the "Watch Out" note about -ly adjectives as a recurring check.
+
+Extension: Briefly introduce adverbs of degree (very, quite, too) as enrichment.
+
+Challenge: Ask advanced learners to rewrite a plain sentence, adding one adverb each of manner, place, and time.
+
+---
+
+## 22. ANSWER KEY DATA
+
+**Section 13 (Quick Check):**
+1. A word that describes a verb, adjective, or another adverb.
+2. Any valid manner adverb, e.g., "slowly," "carefully."
+3. Any valid time adverb, e.g., "tomorrow," "now."
+4. quickly
+5. happily
+
+For open-ended items (Sections 14, 15, 20): accept any grammatically correct response using a genuine adverb of the requested type. Evaluation criteria: correct adverb type, correct spelling/formation, sensible original content.
+
+---
+
+## 23. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Watch Out | `warningbox` |
+| Guided/Independent Practice | `activitybox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 24. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter09.tex` during typesetting, following the same structure as Chapter 8's LaTeX file.
+
+---
+
+## 25. STATUS
+
+`Chapter 9 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope (DEC-016's scope limitation remains unchanged). Pending re-review against BookQualityAudit.md before REVISED status.`

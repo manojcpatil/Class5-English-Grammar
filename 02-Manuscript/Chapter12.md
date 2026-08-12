@@ -266,3 +266,127 @@ In this chapter, we learned about **determiners**, which are words that introduc
 | **Demonstratives (Far)** | **that / those** | Points to nouns that are far from the speaker. | **That** house. **Those** houses. |
 
 > **Key Idea:** Using the correct determiner makes your sentences clear and specific.
+---
+
+## 14. QUICK CHECK
+
+1. What is an article?
+2. When do you use "an" instead of "a"?
+3. Fill in: "___ (This/These) shoes are new." (pointing at shoes you're wearing)
+4. Correct this: "I saw a elephant."
+5. Which article is used for something specific, already mentioned: "a" or "the"?
+
+---
+
+## 15. THINK DEEPER
+
+1. Why do we choose "a" or "an" based on sound rather than spelling (e.g., "an hour" but "a university")?
+2. Can "the" ever be used with a plural noun? Give an example.
+3. Why might leaving out an article completely sometimes still be correct (e.g., "Dogs are loyal")?
+
+---
+
+## 16. CREATE YOUR OWN
+
+- Write three sentences, each correctly using "a," "an," or "the."
+- Create a short "Grammar Detective" sentence of your own with an article mistake for a partner to fix.
+
+---
+
+## 17. SUMMARY
+
+(See Section 13, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 18. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Article | A word (a, an, the) that introduces a noun |
+| Indefinite article | "a" or "an" — used for a general noun |
+| Definite article | "the" — used for a specific, known noun |
+| Demonstrative | Words (this, that, these, those) that point to a noun |
+
+---
+
+## 19. SELF-CHECK
+
+I can:
+
+- [ ] define what an article is.
+- [ ] use "a" and "an" correctly.
+- [ ] understand when to use "the."
+- [ ] identify demonstratives (this, that, these, those).
+- [ ] use articles and demonstratives correctly in sentences.
+
+---
+
+## 20. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the article or demonstrative in five sentences.
+B. **Classify** [U] — Sort a list of nouns into "needs a" and "needs an" based on their starting sound.
+C. **Complete** [U] — Fill in the correct article or demonstrative.
+D. **Correct** [A] — Fix article mistakes (e.g., "a elephant," "the dogs are faithful" as a general statement).
+E. **Rearrange/Transform** [A] — Rewrite a sentence changing "this/these" to "that/those" and adjust meaning.
+F. **Explain** [AN] — Explain why a given sentence needs "a," "an," or "the."
+G. **Apply** [A] — Write a short paragraph describing a shopping trip using at least four articles or demonstratives.
+H. **Create** [C] — Build your own "I Spy" game round (as in Section 11) for a partner.
+
+---
+
+## 21. REAL-LIFE TASK
+
+Look at three objects in your home. Write one sentence about each, correctly using "a," "an," or "the," and one sentence using "this," "that," "these," or "those."
+
+---
+
+## 22. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often choose "a" or "an" based on the first letter's spelling rather than its sound (e.g., "a hour" instead of "an hour," or "an university" instead of "a university").
+
+Support strategy: Practise saying the word aloud first, then choosing the article — sound, not spelling, is the rule.
+
+Extension: Briefly introduce "some/any" as determiners for plural and uncountable nouns, building on Chapter 6's quantity adjectives.
+
+Challenge: Ask advanced learners to find and correct all article errors in a short unedited paragraph.
+
+---
+
+## 23. ANSWER KEY DATA
+
+**Section 14 (Quick Check):**
+1. A word (a, an, the) that introduces a noun, showing whether it is general or specific.
+2. Before a word that starts with a vowel sound.
+3. These
+4. "I saw an elephant."
+5. the
+
+For open-ended items (Sections 15, 16, 21): accept any grammatically correct response using the correct article or demonstrative. Evaluation criteria: correct a/an/the choice based on sound and specificity, sensible original content.
+
+---
+
+## 24. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Worked Example | `examplebox` |
+| Guided/Independent Practice | `activitybox` |
+| Grammar Detective | `detectivebox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 25. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter12.tex` during typesetting, following the same structure as Chapter 11's LaTeX file.
+
+---
+
+## 26. STATUS
+
+`Chapter 12 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope. Pending re-review against BookQualityAudit.md before REVISED status.`

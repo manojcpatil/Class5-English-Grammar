@@ -287,3 +287,126 @@ In this chapter, we learned how to compare things using adjectives.
 -   **Superlative Degree:** Compares three or more things. (e.g., the **fastest** car)
 
 > **Key Idea:** We change adjectives to compare things, using **-er/-est** or **more/most**. Some adjectives have special forms!
+---
+
+## 13. QUICK CHECK
+
+1. Name the three degrees of comparison.
+2. What is the comparative form of "big"?
+3. What is the superlative form of "bad"?
+4. Correct this sentence: "She is the most tallest girl."
+5. Fill in: "This book is ___ (interesting) than that one." (comparative)
+
+---
+
+## 14. THINK DEEPER
+
+1. Why do you think short adjectives use -er/-est while long adjectives use "more"/"most"?
+2. Can two things ever be described as "equally" something, without using comparative or superlative forms? How would you say that in English?
+3. Why might irregular forms like "good, better, best" have survived in English instead of becoming regular over time?
+
+---
+
+## 15. CREATE YOUR OWN
+
+- Write three sentences, one each using the positive, comparative, and superlative degree of the same adjective.
+- Create a short "Grammar Detective" sentence of your own with a double comparative/superlative mistake (like "more bigger") for a partner to fix.
+
+---
+
+## 16. SUMMARY
+
+(See Section 12, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 17. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Positive degree | Describes one thing, no comparison |
+| Comparative degree | Compares two things (usually -er or "more") |
+| Superlative degree | Compares three or more things (usually -est or "most") |
+| Irregular adjective | An adjective that does not follow the -er/-est or more/most rule |
+
+---
+
+## 18. SELF-CHECK
+
+I can:
+
+- [ ] define the three degrees of comparison for adjectives.
+- [ ] form the comparative and superlative degrees of most adjectives.
+- [ ] identify and use common irregular comparative and superlative adjectives.
+- [ ] use comparative adjectives to compare two nouns and superlative adjectives to compare three or more.
+
+---
+
+## 19. PRACTICE ZONE
+
+A. **Identify** [R] — Identify the degree of comparison used in five sentences.
+B. **Classify** [U] — Sort a list of adjectives into "add -er/-est" and "use more/most."
+C. **Complete** [U] — Fill in the correct comparative or superlative form.
+D. **Correct** [A] — Fix double-comparative/superlative errors ("more bigger," "most biggest").
+E. **Rearrange/Transform** [A] — Change a positive-degree sentence into comparative and superlative versions.
+F. **Explain** [AN] — Explain why a given adjective uses -er/-est rather than more/most.
+G. **Apply** [A] — Write a short paragraph comparing three of your favourite things.
+H. **Create** [C] — Build your own comparison table for three objects of your choice.
+
+---
+
+## 20. REAL-LIFE TASK
+
+Compare three members of your family or three friends using at least one comparative and one superlative sentence (e.g., about height, age, or a hobby).
+
+---
+
+## 21. TEACHER SUPPORT NOTE
+
+Likely misconception: Students often create "double comparatives" or "double superlatives" (e.g., "more bigger," "most tallest") by combining both methods at once.
+
+Support strategy: Teach a simple rule of thumb — "short word, add -er/-est; long word, use more/most; never both together" — and drill it with quick oral correction.
+
+Extension: Briefly introduce "as...as" for equal comparisons (e.g., "as tall as") as enrichment.
+
+Challenge: Ask advanced learners to sort a mixed list of ten adjectives into regular (-er/-est), "more/most," and irregular categories without a reference chart.
+
+---
+
+## 22. ANSWER KEY DATA
+
+**Section 13 (Quick Check):**
+1. Positive, comparative, superlative.
+2. bigger
+3. worst
+4. "She is the tallest girl."
+5. more interesting
+
+For open-ended items (Sections 14, 15, 20): accept any grammatically correct response using the correctly formed comparative or superlative. Evaluation criteria: correct form (no double comparatives/superlatives), sensible original content.
+
+---
+
+## 23. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Worked Example | `examplebox` |
+| Remember This | `rememberbox` |
+| Guided/Independent Practice | `activitybox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 24. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter07.tex` during typesetting, following the same structure as Chapter 6's LaTeX file.
+
+---
+
+## 25. STATUS
+
+`Chapter 7 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope. Pending re-review against BookQualityAudit.md before REVISED status.`

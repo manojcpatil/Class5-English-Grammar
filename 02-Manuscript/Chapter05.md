@@ -282,3 +282,128 @@ In this chapter, we learned how to use pronouns to make our sentences better.
 -   **Object Pronouns** receive the action (`me, you, him, her, it, us, them`).
 
 > **Key Idea:** Using pronouns makes your writing and speaking smooth, clear, and less repetitive!
+---
+
+## 14. QUICK CHECK
+
+1. What is a pronoun?
+2. Give one subject pronoun and one object pronoun.
+3. Correct this sentence: "Me and Rohan are friends."
+4. Fill in: "___ is my sister." (She/Her)
+5. Replace the noun with a pronoun: "Maya and Rohan are playing."
+
+---
+
+## 15. THINK DEEPER
+
+1. Why do you think using too many pronouns without clear nouns first can confuse a reader?
+2. Can a pronoun ever refer to more than one possible noun in a sentence? Give an example where this might cause confusion.
+3. Why is it considered polite to say "Maya and I" instead of "I and Maya"?
+
+---
+
+## 16. CREATE YOUR OWN
+
+- Write three sentences using a different subject pronoun in each.
+- Create a short "Grammar Detective" sentence of your own with a subject/object pronoun mistake for a partner to fix.
+
+---
+
+## 17. SUMMARY
+
+(See Section 13, "Let's Summarise," above for the chapter summary.)
+
+---
+
+## 18. KEY TERMS
+
+| Term | Simple Meaning |
+|---|---|
+| Pronoun | A word used in place of a noun |
+| Subject pronoun | A pronoun that performs the action (I, you, he, she, it, we, they) |
+| Object pronoun | A pronoun that receives the action (me, you, him, her, it, us, them) |
+| Person | Whether a pronoun refers to the speaker (first), the person spoken to (second), or someone/something spoken about (third) |
+
+---
+
+## 19. SELF-CHECK
+
+I can:
+
+- [ ] define what a pronoun is and why it is used.
+- [ ] identify personal pronouns in sentences.
+- [ ] distinguish between subject and object pronouns.
+- [ ] replace nouns in sentences with appropriate pronouns.
+- [ ] use pronouns correctly to write clear, concise sentences.
+
+---
+
+## 20. PRACTICE ZONE
+
+A. **Identify** [R] — Underline the pronoun in five sentences.
+B. **Classify** [U] — Sort a list of pronouns into subject and object.
+C. **Complete** [U] — Fill in the correct pronoun to match a given noun.
+D. **Correct** [A] — Fix pronoun mistakes ("me and Rohan," "her gave me...").
+E. **Rearrange/Transform** [A] — Rewrite a sentence replacing a repeated noun with a pronoun.
+F. **Explain** [AN] — Explain why a subject or object pronoun is needed in a given sentence.
+G. **Apply** [A] — Write a short paragraph about your best friend using at least four different pronouns.
+H. **Create** [C] — Write your own short dialogue using both subject and object pronouns correctly.
+
+---
+
+## 21. REAL-LIFE TASK
+
+Listen to a short conversation at home or watch a short video. Write down two sentences you heard that used pronouns, and identify whether each pronoun was a subject or an object pronoun.
+
+---
+
+## 22. TEACHER SUPPORT NOTE
+
+Likely misconception: Students very commonly say "me and [name]" instead of "[name] and I," and confuse "me" and "my" (object pronoun vs. possessive).
+
+Support strategy: Teach the "cover-up" trick from Section 10 as a repeatable check learners can use independently.
+
+Extension: Briefly preview possessive pronouns (mine, yours, his, hers) as a bridge to more advanced pronoun work in a later chapter.
+
+Challenge: Ask advanced learners to rewrite a short paragraph full of repeated nouns, replacing each repetition with the correct pronoun.
+
+---
+
+## 23. ANSWER KEY DATA
+
+**Section 14 (Quick Check):**
+1. A word used in place of a noun.
+2. Any valid pair, e.g., subject: "she"; object: "her."
+3. "Rohan and I are friends."
+4. She
+5. "They are playing."
+
+For open-ended items (Sections 15, 16, 21): accept any grammatically correct response using the correct pronoun forms. Evaluation criteria: correct subject/object choice, sensible original content.
+
+---
+
+## 24. LATEX SEMANTIC MAPPING
+
+| Manuscript Element | LaTeX Environment |
+|---|---|
+| Learning Outcomes | `learningobjectives` |
+| Language Experience | `languageexperience` |
+| Worked Example | `examplebox` |
+| Guided/Independent Practice | `activitybox` |
+| Grammar Detective | `detectivebox` |
+| Watch Out | `warningbox` |
+| Quick Check | `quickcheck` |
+| Think Deeper | `challengebox` |
+| Self-Check | `selfcheck` |
+
+---
+
+## 25. LATEX CHAPTER FILE
+
+To be created at `04-LaTeX/chapters/chapter05.tex` during typesetting, following the same structure as Chapter 4's LaTeX file.
+
+---
+
+## 26. STATUS
+
+`Chapter 5 has been extended to match the Pattern C structure used by Chapters 13-29 (see BookQualityAudit.md, ISSUE AUDIT-001). Content added: Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and this Status section. No changes were made to the chapter's existing taught content or scope (DEC-010's scope limitation to personal pronouns remains unchanged). Pending re-review against BookQualityAudit.md before REVISED status.`

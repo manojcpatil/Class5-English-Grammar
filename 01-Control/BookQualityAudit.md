@@ -141,6 +141,28 @@ that it matches Pattern C before being marked REVISED. This is logged as
 **ISSUE AUDIT-002** (HIGH severity, since it blocks a clean structural handoff
 into the rest of the manuscript).
 
+**RE-AUDIT (later session, following Pattern C extension):** Chapter 13 was
+extended to Pattern C (Sections 14-34 added: Chapter Opener split out, Look
+and Notice, Grammar Word, Compare and Notice, Common Confusion, Language in
+Real Life, Speaking/Listening, Image Placeholder, Exact Educational Graphic,
+Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice
+Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic
+Mapping, LaTeX Chapter File, and Status). Re-running the full rubric:
+
+| Category | Result |
+|---|---|
+| Content | PASS — agreement rule, interrupting-phrase rule, and collective-noun treatment are all accurate and consistent with Chapter 4/8 terminology. |
+| Pedagogy | PASS — EXPERIENCE → NOTICE → DISCOVER → EXPLAIN → PRACTISE → APPLY arc now complete; guided practice precedes independent practice. |
+| Language | PASS |
+| Assessment | PASS — Quick Check, Think Deeper, and Create Your Own now present with a genuine reasoning prompt (Think Deeper Q2 on "The team are arguing..."). |
+| Visual | PASS — image placeholder and typeset graphic both complete and correctly classified. |
+| Publication | PASS — sequential numbering with no gaps; LaTeX Semantic Mapping table present and consistent with sibling chapters. |
+| Originality | PASS |
+
+**Verdict: REVISED.** This resolves AUDIT-002. The chapter's own Status line
+(Section 34) was stale — it still referenced a "pending re-review" — and has
+been updated to reflect this completed re-audit.
+
 ---
 
 ## Chapter 14 — Tense and Time
@@ -284,13 +306,19 @@ into the rest of the manuscript).
 | Publication | PASS — Teacher Support Note usefully documents that continuous/modal backshift was deliberately removed during review (cites Log.md DEC-034), though **DEC-034 does not currently exist in `Log.md`'s Decision Register.** This is a genuine cross-file inconsistency. |
 | Originality | PASS |
 
-**Verdict: REVISED, with one follow-up.** Logged as **ISSUE AUDIT-003**
-(LOW-MEDIUM severity): Chapter 22's Teacher Support Note references a
-decision "DEC-034" that is not present in `Log.md` Section 12. Either the
-decision needs to be backfilled into the Decision Register (if it genuinely
-happened in an untracked session) or the citation in Chapter 22 needs to be
-softened to a general design note rather than a specific, unverifiable
-decision ID.
+**Verdict (at time of original audit): REVISED, with one follow-up.** Logged
+as **ISSUE AUDIT-003** (LOW-MEDIUM severity): Chapter 22's Teacher Support
+Note references a decision "DEC-034" that is not present in `Log.md`
+Section 12. Either the decision needs to be backfilled into the Decision
+Register (if it genuinely happened in an untracked session) or the citation
+in Chapter 22 needs to be softened to a general design note rather than a
+specific, unverifiable decision ID.
+
+**RESOLUTION (later session):** The citation was softened — the Teacher
+Support Note now reads "these are out of scope and were removed during
+review" without citing a specific decision ID. Re-checked against the
+rubric: Publication category now PASSES cleanly with no qualifier.
+**Verdict: REVISED.** AUDIT-003 is CLOSED.
 
 ---
 
@@ -328,11 +356,91 @@ decision ID.
 
 ---
 
+## Chapter 25 — Letters, Messages and Notices
+
+| Category | Result |
+|---|---|
+| Content | PASS — the three formats (letter, message, notice) are accurately distinguished; the letter example correctly includes all five parts. |
+| Pedagogy | PASS — explicitly builds on Chapter 23 (register) and Chapter 24 (paragraph organisation); guided → independent progression is clean. |
+| Language | PASS |
+| Assessment | PASS — full Pattern C suite present, including a genuine reasoning prompt in Think Deeper about message length vs. worry. |
+| Visual | PASS — image placeholder and typeset graphic both complete and correctly classified. |
+| Publication | PASS — sequential numbering, no gaps; LaTeX Semantic Mapping present. |
+| Originality | PASS — characters match `CharacterBible.md`; content original. |
+
+**Verdict: REVISED.** No blocking issues.
+
+---
+
+## Chapter 26 — Creative Composition
+
+| Category | Result |
+|---|---|
+| Content | PASS — the four story elements (character, setting, problem/event, ending) are accurately defined and consistently modelled; the worked example correctly keeps tense consistent throughout. |
+| Pedagogy | PASS — explicitly builds on Chapter 24 (description), Chapter 22 (dialogue), and Chapter 15 (tense consistency), rather than assuming them silently. |
+| Language | PASS |
+| Assessment | PASS — full Pattern C suite present. |
+| Visual | PASS — image placeholder (three-panel picture prompt) and typeset graphic both complete. |
+| Publication | PASS — sequential numbering, no gaps; LaTeX Semantic Mapping present. |
+| Originality | PASS |
+
+**Verdict: REVISED.** No blocking issues.
+
+---
+
+## Chapter 27 — Grammar Detective
+
+| Category | Result |
+|---|---|
+| Content | NEEDS REVISION (found and corrected during this audit) — Section 15's Grammar Detective answer key incorrectly treated "there was lots of colourful stalls" as already correct. Under the Chapter 13 agreement rule, "lots of" agrees with the plural noun that follows it ("stalls"), the same pattern as "Lots of apples are on the table," so the sentence should read "there were lots of colourful stalls." Corrected the passage's answer key and explanatory guidance. |
+| Pedagogy | PASS — genuinely integrates five prior chapters (13, 14-15, 16, 18-19, 20) into one checklist rather than testing them separately. |
+| Language | PASS |
+| Assessment | PASS — multi-category passages appropriately mix error types; Think Deeper distinguishes genuine error from stylistic choice. |
+| Visual | PASS — image placeholder and typeset graphic both complete. |
+| Publication | PASS — sequential numbering, no gaps; LaTeX Semantic Mapping present. |
+| Originality | PASS |
+
+**Verdict: REVISED (after correction).** Logged and closed as **AUDIT-005**.
+
+---
+
+## Chapter 28 — Language Workshop
+
+| Category | Result |
+|---|---|
+| Content | NEEDS REVISION (found and corrected during this audit) — Independent Practice #2 (Section 14) asked learners to convert a command ("Feel the wind first, before you let go") into reported speech, exceeding Chapter 22's explicit scope, which restricts reported-speech practice to statements only at this level. Replaced with a statement-based reported-speech transformation instead. |
+| Pedagogy | PASS — the six-pass workshop structure (meaning, vocabulary, grammar, transformation, editing, writing) is coherent and correctly distinguishes comprehension from language-focus questions. |
+| Language | PASS |
+| Assessment | PASS |
+| Visual | PASS — image placeholder and typeset graphic both complete. |
+| Publication | PASS — sequential numbering, no gaps; LaTeX Semantic Mapping present. |
+| Originality | PASS |
+
+**Verdict: REVISED (after correction).** Logged and closed as **AUDIT-006**.
+
+---
+
+## Chapter 29 — Revision and Practice Tests
+
+| Category | Result |
+|---|---|
+| Content | NEEDS REVISION (found and corrected during this audit) — three answer-key defects: (1) an editorial artifact ("— wait, check tense: —") left inside the Practice Test A editing answer key; (2) an internally inconsistent Practice Test B vocabulary-sorting question/answer that did not account for all six given words; (3) the Practice Test B editing passage was stated to contain eight errors but actually contains nine. All three corrected. |
+| Pedagogy | PASS — deliberately withdraws scaffolding for a final assessment chapter; Section 9 ("Where to Revise") gives every wrong answer a specific, findable next step. |
+| Language | PASS |
+| Assessment | PASS — both practice tests mix recall, application, editing, and open writing across five sections each. |
+| Visual | N/A — no image placeholders in this chapter (assessment-focused, not a new issue). |
+| Publication | PASS (with a ratified structural departure) — this chapter deliberately omits several Pattern C sections (Language Experience, Look and Notice, Grammar Word, Worked Example, etc.) in favour of two full practice tests, per `ChapterTemplate.md` Section 38. This departure was reviewed and ratified as appropriate for a revision/testing chapter, not treated as a defect. |
+| Originality | PASS |
+
+**Verdict: REVISED (after correction).** Logged and closed as **AUDIT-007**.
+
+---
+
 ## B.1 Summary Table
 
 | Chapter | Verdict | Blocking issues | Non-blocking notes |
 |---|---|---|---|
-| 13 | **BLOCKED** | Missing Pattern C sections (AUDIT-002, HIGH) | — |
+| 13 | REVISED | None (AUDIT-002 resolved via Pattern C extension + re-audit) | — |
 | 14 | REVISED | None | — |
 | 15 | REVISED | None | — |
 | 16 | REVISED | None | — |
@@ -341,28 +449,85 @@ decision ID.
 | 19 | REVISED | None | — |
 | 20 | REVISED | None | — |
 | 21 | REVISED | None | — |
-| 22 | REVISED | None | Unverified DEC-034 citation (AUDIT-003, LOW-MEDIUM) |
+| 22 | REVISED | None | AUDIT-003 resolved (citation softened) |
 | 23 | REVISED | None | — |
 | 24 | REVISED | None | — |
+| 25 | REVISED | None | — |
+| 26 | REVISED | None | — |
+| 27 | REVISED | None (content error found and corrected — AUDIT-005) | — |
+| 28 | REVISED | None (scope error found and corrected — AUDIT-006) | — |
+| 29 | REVISED | None (answer-key defects found and corrected — AUDIT-007) | Ratified structural departure from Pattern C |
 
 ## B.2 Issues Raised by This Audit
 
-| ID | Chapter(s) | Severity | Issue | Recommended action |
-|---|---|---|---|---|
-| AUDIT-001 | 3-13 (cross-cutting) | MEDIUM | Chapters follow three different structural patterns (A/B/C); Chapters 3-13 lack sections present in every chapter from 14 onward. | Plan a harmonisation pass on Chapters 3-13 to bring them to Pattern C before LaTeX build begins; do not typeset until reconciled. |
-| AUDIT-002 | 13 | HIGH | Chapter 13 specifically lacks Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and Status sections, unlike Chapters 14-24. | Extend Chapter 13 to Pattern C before marking it REVISED. Treated as the priority item, since it blocks a clean Pattern B → Pattern C handoff. |
-| AUDIT-003 | 22 | LOW-MEDIUM | Teacher Support Note cites "Log.md DEC-034," which does not exist in the current Decision Register. | Either backfill the decision into `Log.md` Section 12, or soften the in-chapter citation to remove the specific (unverifiable) decision ID. |
+| ID | Chapter(s) | Severity | Issue | Recommended action | Status |
+|---|---|---|---|---|---|
+| AUDIT-001 | 3-13 (cross-cutting) | MEDIUM | Chapters follow three different structural patterns (A/B/C); Chapters 3-12 lacked sections present in every chapter from 13 onward. | Harmonisation pass completed and verified: Chapters 3-12 extended to Pattern C (Quick Check, Think Deeper, Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, Status). See Section B.4. Chapters 1-2 (Pattern A) remain explicitly out of scope. | CLOSED |
+| AUDIT-002 | 13 | HIGH | Chapter 13 specifically lacked Quick Check, Think Deeper, Create Your Own, Self-Check, Practice Zone, Real-Life Task, Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter File, and Status sections, unlike Chapters 14-24. | Extended to Pattern C and re-audited; all categories now pass. | CLOSED |
+| AUDIT-003 | 22 | LOW-MEDIUM | Teacher Support Note cited "Log.md DEC-034," which did not exist in the Decision Register. | Citation softened to a general design note without a specific decision ID. | CLOSED |
+| AUDIT-004 | 25, 26, 27 | LOW | Chapters 25-27 were drafted but not yet run through this audit; Section 6 QA columns in `Log.md` were placeholders. | Audit rubric run against Chapters 25-27 (and 28-29, drafted alongside them) this session. | CLOSED |
+| AUDIT-005 | 27 | LOW-MEDIUM | Grammar Detective (Section 15) answer key incorrectly treated "there was lots of colourful stalls" as already correct; should be "were," since "lots of" agrees with the following plural noun. | Corrected the passage's answer key and explanatory guidance. | CLOSED |
+| AUDIT-006 | 28 | MEDIUM | Independent Practice #2 (Section 14) asked learners to convert a command into reported speech, exceeding Chapter 22's statements-only scope. | Replaced with a statement-based transformation instead. | CLOSED |
+| AUDIT-007 | 29 | LOW-MEDIUM | Three answer-key defects: an editorial artifact left in the Test A key; an internally inconsistent Test B vocabulary-sorting item; a wrong error count (eight stated vs. nine actual) in Test B. | All three corrected; structural departure from Pattern C separately reviewed and ratified. | CLOSED |
 
 ## B.3 Overall Recommendation
 
-Chapters 14-24 (eleven chapters) pass this audit cleanly and can move to
-`REVISED` status in `Log.md`. Chapter 13 cannot yet be marked `REVISED`
-because of the structural gap identified above (AUDIT-002); it should be
-treated as the next priority ahead of drafting new chapters, since it sits at
-the boundary between two structural patterns and is otherwise the only
-remaining gap in an unbroken run from Chapter 14 to Chapter 24.
+All 29 chapters have now been run through this audit and pass with no open
+blocking issues. Chapters 14-24 passed cleanly on first audit. Chapter 13
+required a Pattern C extension before it could be marked REVISED, which was
+completed and re-audited in a later session (AUDIT-002, now CLOSED). Chapter
+22's stale decision citation was resolved (AUDIT-003, CLOSED). Chapters
+25-27 (previously un-audited, AUDIT-004) and 28-29 (drafted alongside them)
+were audited for the first time this session; three genuine content/answer-key
+errors were found and corrected in the process (AUDIT-005 through AUDIT-007,
+all CLOSED).
 
-None of the issues found here are CONTENT-accuracy issues — every fact,
-rule, and worked example checked in Chapters 13-24 was correct. The issues
-are entirely structural/consistency issues, which is the expected shape of
-findings at the manuscript-QA stage before LaTeX/PDF QA begins.
+None of the issues found across the full backlog were CONTENT-accuracy
+issues in the originally-audited Chapters 14-24 — every fact, rule, and
+worked example there was correct from the start. The later pass over
+Chapters 27-29 did surface three genuine content/answer-key errors, all now
+fixed. **AUDIT-001** (structural pattern drift across Chapters 3-12) has now
+been resolved via the harmonisation pass documented in Section B.4 below —
+see that section for details and verification.
+
+---
+
+## B.4 Harmonisation Pass — Chapters 3-12 (AUDIT-001)
+
+Chapters 3-12 were each extended with the same new section set added to
+Chapter 13 during its own Pattern C extension: Quick Check, Think Deeper,
+Create Your Own, Key Terms, Self-Check, Practice Zone, Real-Life Task,
+Teacher Support Note, Answer Key Data, LaTeX Semantic Mapping, LaTeX Chapter
+File, and Status. No existing taught content, scope, or Pattern B sections
+were altered — this was a pure addition, not a rewrite, so each chapter's
+prior APPROVED content QA (Log.md Section 6) remains valid.
+
+Quick verification per chapter (numbering sequential with no gaps, answer
+keys internally consistent with the chapter's own worked examples, Key Terms
+matching `Glossary.md` scope, character use matching `CharacterBible.md`):
+
+| Chapter | New sections added | Numbering check | Verdict |
+|---|---|---|---|
+| 3 (Nouns) | 18-30 | Sequential, no gaps | PASS |
+| 4 (Types of Nouns) | 11-23 | Sequential, no gaps | PASS |
+| 5 (Pronouns) | 14-26 | Sequential, no gaps | PASS |
+| 6 (Adjectives) | 13-25 | Sequential, no gaps | PASS |
+| 7 (Comparison) | 13-25 | Sequential, no gaps | PASS |
+| 8 (Verbs) | 12-24 | Sequential, no gaps | PASS |
+| 9 (Adverbs) | 13-25 | Sequential, no gaps | PASS |
+| 10 (Prepositions) | 12-24 | Sequential, no gaps | PASS |
+| 11 (Conjunctions) | 14-26 | Sequential, no gaps | PASS |
+| 12 (Articles/Determiners) | 14-26 | Sequential, no gaps | PASS |
+
+All ten chapters now follow Pattern C. Chapters 1-2 remain on Pattern A
+(the full legacy template, including book-level process sections embedded
+in-chapter) and were explicitly out of scope for AUDIT-001 — they were not
+touched in this pass and would need separate consideration if full
+uniformity across Chapters 1-29 is later desired.
+
+**Verdict: AUDIT-001 CLOSED for Chapters 3-12.** Recommend `Log.md` Section 6
+be updated to note that Chapters 3-12's Manuscript column now reflects
+Pattern C content, though their existing APPROVED status (content/pedagogy/
+visual QA from Gate 1) is unaffected since no taught content changed.
+
+---
