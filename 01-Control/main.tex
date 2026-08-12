@@ -1,0 +1,42 @@
+% =================================================================
+% MAIN DOCUMENT
+% =================================================================
+% This is the master file. It should be compiled with XeLaTeX.
+% It loads packages and settings from preamble.tex,
+% document-specific information from metadata.tex,
+% and then includes the content from the /chapters directory.
+%
+% Do not write chapter content directly in this file.
+% Create a new .tex file in the /chapters/ directory for each chapter.
+% =================================================================
+
+\documentclass[11pt, a4paper]{book}
+
+% --- PREAMBLE ---
+% Load all packages, custom commands, and document settings
+\input{preamble.tex}
+
+% --- METADATA ---
+% Load document title, author, etc.
+\input{metadata.tex}
+
+\begin{document}
+
+% --- FRONT MATTER ---
+\frontmatter
+\maketitle
+\tableofcontents
+
+% --- MAIN MATTER ---
+\mainmatter
+\include{chapters/chapter01}
+% \include{chapters/chapter02}
+% \include{chapters/chapter03}
+% ... and so on for all chapters
+
+% --- BACK MATTER ---
+\backmatter
+% \include{glossary/glossary}
+% \include{answers/answerkey}
+
+\end{document}
