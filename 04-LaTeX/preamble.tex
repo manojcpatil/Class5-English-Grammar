@@ -16,6 +16,7 @@
 \usepackage{tcolorbox}          % For creating colored boxes
 \usepackage{enumitem}           % For customizing lists
 \usepackage{setspace}           % For controlling line spacing
+\usepackage{titlesec}           % For customizing section titles
 \usepackage{hyperref}           % For hyperlinks (should be loaded last)
 
 % --- PAGE LAYOUT ---
@@ -35,6 +36,10 @@
 % Define custom colors for boxes and headings
 \definecolor{boxblue}{RGB}{230, 240, 255}
 \definecolor{boxtitleblue}{RGB}{0, 80, 150}
+\definecolor{boxyellow}{RGB}{255, 253, 228}
+\definecolor{boxgreen}{RGB}{230, 255, 230}
+\definecolor{boxpurple}{RGB}{240, 230, 255}
+\definecolor{boxred}{RGB}{255, 230, 230}
 
 % --- HEADERS AND FOOTERS ---
 \pagestyle{fancy}
@@ -45,8 +50,17 @@
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 
+% --- CHAPTER TITLE STYLING ---
+% Use a decorative font for chapter titles
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\fontspec{Georgia}}
+  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
 % --- CUSTOM ENVIRONMENTS ---
 % These environments match the semantic blocks in the Markdown files.
+
+% --- CUSTOM COMMANDS ---
+% For highlighting grammar words inline
+\newcommand{\gramword}[1]{\textbf{\textcolor{boxtitleblue}{#1}}}
 
 \newtcolorbox{learningobjectives}{
     colback=blue!5!white,
@@ -72,4 +86,54 @@
     title=Watch Out!
 }
 
-% Add other custom environments as needed...
+\newtcolorbox{quickcheck}{
+    colback=yellow!10!white,
+    colframe=yellow!60!black,
+    title=Quick Check
+}
+
+\newtcolorbox{examplebox}{
+    colback=black!3!white,
+    colframe=black!60!black,
+    title=Example
+}
+
+\newtcolorbox{summarybox}{
+    colback=purple!5!white,
+    colframe=purple!75!black,
+    title=Summary
+}
+
+\newtcolorbox{rememberbox}{
+    colback=orange!10!white,
+    colframe=orange!75!black,
+    title=Remember!
+}
+
+\newtcolorbox{thinkbox}{
+    colback=cyan!5!white,
+    colframe=cyan!75!black,
+    title=Look and Notice
+}
+
+\newtcolorbox{grammarwordbox}[1]{
+    colback=blue!5!white,
+    colframe=blue!75!black,
+    title=#1
+}
+
+
+\newenvironment{grammarword}[1]{\begin{grammarwordbox}\textbf{#1}: }{\end{grammarwordbox}}
+
+
+\newtcolorbox{challengebox}{
+    colback=teal!10!white,
+    colframe=teal!75!black,
+    title=Think Deeper
+}
+
+\newtcolorbox{selfcheck}{
+    colback=green!5!white,
+    colframe=green!75!black,
+    title=Self-Check
+}
